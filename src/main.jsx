@@ -103,7 +103,7 @@ function ClimateSequence() {
         canvas.height = height;
       }
 
-      const scale = Math.min(width / image.naturalWidth, height / image.naturalHeight);
+      const scale = Math.max(width / image.naturalWidth, height / image.naturalHeight);
       const renderWidth = image.naturalWidth * scale;
       const renderHeight = image.naturalHeight * scale;
       context.fillStyle = "#eef2ef";
@@ -165,11 +165,7 @@ function ClimateSequence() {
     const frame = { value: 0 };
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    if (reduceMotion) {
-      gsap.set(".sequence-copy", { autoAlpha: 0 });
-      gsap.set(".sequence-copy-final", { autoAlpha: 1 });
-      return;
-    }
+    if (reduceMotion) return;
 
     const timeline = gsap.timeline({
       scrollTrigger: {
@@ -188,13 +184,7 @@ function ClimateSequence() {
         ease: "none",
         onUpdate: () => canvas?.drawSequenceFrame?.(Math.round(frame.value)),
       }, 0)
-      .to(".sequence-progress-fill", { scaleX: 1, duration: 1, ease: "none" }, 0)
-      .to(".sequence-copy-intro", { autoAlpha: 0, y: -28, duration: 0.08 }, 0.17)
-      .fromTo(".sequence-copy-energy", { autoAlpha: 0, y: 28 }, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.25)
-      .to(".sequence-copy-energy", { autoAlpha: 0, y: -28, duration: 0.08 }, 0.45)
-      .fromTo(".sequence-copy-water", { autoAlpha: 0, y: 28 }, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.53)
-      .to(".sequence-copy-water", { autoAlpha: 0, y: -28, duration: 0.08 }, 0.73)
-      .fromTo(".sequence-copy-final", { autoAlpha: 0, y: 28 }, { autoAlpha: 1, y: 0, duration: 0.09 }, 0.81);
+      .to(".sequence-progress-fill", { scaleX: 1, duration: 1, ease: "none" }, 0);
   }, { scope: sectionRef });
 
   return (
@@ -244,12 +234,24 @@ function ClimateSequence() {
 function App() {
   const [active, setActive] = useState("solar");
   const [scrolled, setScrolled] = useState(false);
+  const [showNav, setShowNav] = useState(false);
   const [demo, setDemo] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 30);
+    const onScroll = () => {
+      const sequence = document.querySelector(".climate-sequence");
+      const sequenceEnd = Math.max(0, (sequence?.offsetHeight || 0) - window.innerHeight);
+      const hasPassedSequence = window.scrollY >= sequenceEnd - 2;
+      setScrolled(hasPassedSequence);
+      setShowNav(hasPassedSequence);
+    };
+    onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener("resize", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
   }, []);
 
   const activeModule = modules.find((m) => m.id === active);
@@ -262,7 +264,7 @@ function App() {
   return (
     <div className="app">
       <div className="grain" />
-      <header className={`nav ${scrolled ? "nav-scrolled" : ""}`}>
+      <header className={`nav ${scrolled ? "nav-scrolled" : ""} ${showNav ? "nav-visible" : "nav-hidden"}`}>
         <a className="brand" href="#top" aria-label="SunWindRain home">
           <span className="brand-mark">
             <span className="leaf leaf-a" />
