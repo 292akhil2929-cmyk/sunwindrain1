@@ -188,19 +188,26 @@ function ClimateSequence() {
   }, { scope: sectionRef });
 
   return (
-    <section className="climate-sequence" ref={sectionRef} aria-label="SunWindRain system in motion">
+    <section className="climate-sequence" ref={sectionRef} aria-label="WELOS system in motion">
       <div className="sequence-sticky">
         <div className="sequence-media">
           <canvas
             ref={canvasRef}
             className={`sequence-canvas ${firstFrameReady ? "is-ready" : ""}`}
             role="img"
-            aria-label="A rooftop SunWindRain device moves from solar generation through wind capture and rainwater recovery"
+            aria-label="A rooftop WELOS device moves from solar generation through wind capture and rainwater recovery"
           />
         </div>
         <div className="sequence-caption">
+          <div className="sequence-brand">
+            <img src="/welos-brand-transparent.png" alt="WELOS" />
+          </div>
+          <div className="sequence-scroll-cue" aria-hidden="true">
+            <span>Scroll</span>
+            <i />
+          </div>
           <div className="sequence-chrome" aria-hidden="true">
-            <span>SWR / FIELD SEQUENCE</span>
+            <span>WELOS / FIELD SEQUENCE</span>
             <span>SCROLL TO ACTIVATE</span>
           </div>
           <div className="sequence-progress" aria-hidden="true"><span className="sequence-progress-fill" /></div>
@@ -265,15 +272,8 @@ function App() {
     <div className="app">
       <div className="grain" />
       <header className={`nav ${scrolled ? "nav-scrolled" : ""} ${showNav ? "nav-visible" : "nav-hidden"}`}>
-        <a className="brand" href="#top" aria-label="SunWindRain home">
-          <span className="brand-mark">
-            <span className="leaf leaf-a" />
-            <span className="leaf leaf-b" />
-            <span className="drop" />
-          </span>
-          <span>
-            <b>Sun</b><strong>Wind</strong><em>Rain</em>
-          </span>
+        <a className="brand" href="#top" aria-label="WELOS home">
+          <span className="brand-welos"><b>wel</b><em>os</em></span>
         </a>
         <nav>
           <a href="#system">System</a>
@@ -291,7 +291,7 @@ function App() {
             <div className="eyebrow"><span className="pulse" /> UAE URBAN RESOURCE SYSTEM / 01</div>
             <h1>One system.<br/><span>Three resources.</span><br/>Smarter resilience.</h1>
             <p className="hero-lede">
-              SunWindRain integrates <b>solar energy, urban wind and rainwater recovery</b>
+              WELOS integrates <b>solar energy, urban wind and rainwater recovery</b>
               into one compact cyber-physical architecture — then uses real-time intelligence
               to decide how every available resource should be used.
             </p>
@@ -307,9 +307,9 @@ function App() {
           </div>
 
           <div className="hero-visual">
-            <div className="visual-topline"><span>PROTOTYPE / SWR-01</span><span>LIVE CONCEPT</span></div>
+            <div className="visual-topline"><span>PROTOTYPE / WELOS-01</span><span>LIVE CONCEPT</span></div>
             <div className="image-frame">
-              <img src="/sunwindrain-system.png" alt="SunWindRain integrated solar, wind and rainwater harvesting prototype" />
+              <img src="/sequence/frame_001.jpg" alt="WELOS integrated solar, wind and rainwater harvesting prototype" />
               <div className="scanline" />
               <div className="visual-tag tag-one"><span className="tag-dot" /> ENERGY + WATER</div>
               <div className="visual-tag tag-two">URBAN MICRO-GRID / 001</div>
@@ -340,7 +340,7 @@ function App() {
                 arrives in short, high-intensity events.
               </p>
               <p>
-                SunWindRain is designed around that reality. Instead of installing isolated
+                WELOS is designed around that reality. Instead of installing isolated
                 systems, it gives them a shared structure, shared sensing and a shared control layer.
               </p>
               <div className="stat-row">
@@ -477,7 +477,7 @@ function App() {
             <h2>The panel tells<br/><i>you when it needs help.</i></h2>
             <p>
               Fixed cleaning schedules can clean too early or leave a panel underperforming.
-              SunWindRain estimates the difference between theoretical clear-sky output and actual
+              WELOS estimates the difference between theoretical clear-sky output and actual
               PV power to calculate a dynamic soiling index.
             </p>
             <div className="threshold">
@@ -516,7 +516,7 @@ function App() {
             <div className="section-kicker">THE BIG IDEA / 08</div>
             <h2>Not three systems.<br/><span>One coordinated resource loop.</span></h2>
             <p>
-              SunWindRain turns an underused urban footprint into a responsive infrastructure layer —
+              WELOS turns an underused urban footprint into a responsive infrastructure layer —
               generating energy, recovering water and maintaining its own solar surface through data-driven control.
             </p>
             <a href="#top" className="button button-light">Back to the beginning ↑</a>
@@ -525,7 +525,7 @@ function App() {
       </main>
 
       <footer>
-        <div className="brand footer-brand"><span className="brand-mark"><span className="leaf leaf-a"/><span className="leaf leaf-b"/><span className="drop"/></span><span><b>Sun</b><strong>Wind</strong><em>Rain</em></span></div>
+        <div className="brand footer-brand"><span className="brand-welos"><b>wel</b><em>os</em></span></div>
         <span>INTELLIGENT URBAN RESOURCE SYSTEM / 2026</span>
         <span>ENERGY + WATER + INTELLIGENCE</span>
       </footer>
