@@ -1,6 +1,13 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 import "./style.css";
+
+gsap.registerPlugin(ScrollTrigger, useGSAP);
+
+const SEQUENCE_FRAMES = 113;
 
 const stats = [
   { value: "2,285", unit: "kWh/m²/yr", label: "Approx. annual GHI used in the project model" },
@@ -67,6 +74,168 @@ function Icon({ type }) {
     check: <path d="m5 12 4 4L19 6"/>,
   };
   return <svg {...common}>{paths[type]}</svg>;
+}
+
+function ClimateSequence() {
+  const sectionRef = useRef(null);
+  const canvasRef = useRef(null);
+  const imagesRef = useRef([]);
+  const currentFrameRef = useRef(0);
+  const [firstFrameReady, setFirstFrameReady] = useState(false);
+
+  useEffect(() => {
+    let active = true;
+    const canvas = canvasRef.current;
+    const context = canvas?.getContext("2d", { alpha: false });
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!canvas || !context) return undefined;
+
+    const drawFrame = (index) => {
+      const image = imagesRef.current[index];
+      if (!image?.complete || !image.naturalWidth) return;
+
+      const bounds = canvas.getBoundingClientRect();
+      const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+      const width = Math.max(1, Math.round(bounds.width * dpr));
+      const height = Math.max(1, Math.round(bounds.height * dpr));
+      if (canvas.width !== width || canvas.height !== height) {
+        canvas.width = width;
+        canvas.height = height;
+      }
+
+      const scale = Math.max(width / image.naturalWidth, height / image.naturalHeight);
+      const renderWidth = image.naturalWidth * scale;
+      const renderHeight = image.naturalHeight * scale;
+      context.fillStyle = "#071d2c";
+      context.fillRect(0, 0, width, height);
+      context.drawImage(image, (width - renderWidth) / 2, (height - renderHeight) / 2, renderWidth, renderHeight);
+    };
+
+    const loadFrame = (index) => {
+      if (imagesRef.current[index]) return;
+      const image = new Image();
+      image.decoding = "async";
+      image.src = `/sequence/frame_${String(index + 1).padStart(3, "0")}.jpg`;
+      image.onload = () => {
+        if (!active) return;
+        if (index === 0) {
+          if (currentFrameRef.current === 0) drawFrame(0);
+          setFirstFrameReady(true);
+        } else if (index === currentFrameRef.current) {
+          drawFrame(index);
+        }
+      };
+      imagesRef.current[index] = image;
+    };
+
+    loadFrame(0);
+    if (reduceMotion) {
+      currentFrameRef.current = SEQUENCE_FRAMES - 1;
+      loadFrame(SEQUENCE_FRAMES - 1);
+    }
+    for (let index = 1; index < Math.min(SEQUENCE_FRAMES, 18); index += 1) loadFrame(index);
+
+    const warmSequence = () => {
+      for (let index = 18; index < SEQUENCE_FRAMES; index += 1) loadFrame(index);
+    };
+    const idleId = "requestIdleCallback" in window
+      ? window.requestIdleCallback(warmSequence, { timeout: 1800 })
+      : window.setTimeout(warmSequence, 400);
+
+    const onResize = () => drawFrame(currentFrameRef.current);
+    window.addEventListener("resize", onResize, { passive: true });
+
+    canvas.drawSequenceFrame = (index) => {
+      currentFrameRef.current = index;
+      drawFrame(index);
+    };
+
+    return () => {
+      active = false;
+      window.removeEventListener("resize", onResize);
+      if ("cancelIdleCallback" in window) window.cancelIdleCallback(idleId);
+      else window.clearTimeout(idleId);
+      imagesRef.current = [];
+      delete canvas.drawSequenceFrame;
+    };
+  }, []);
+
+  useGSAP(() => {
+    const canvas = canvasRef.current;
+    const frame = { value: 0 };
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (reduceMotion) {
+      gsap.set(".sequence-copy", { autoAlpha: 0 });
+      gsap.set(".sequence-copy-final", { autoAlpha: 1 });
+      return;
+    }
+
+    const timeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: sectionRef.current,
+        start: "top top",
+        end: "bottom bottom",
+        scrub: 0.35,
+        invalidateOnRefresh: true,
+      },
+    });
+
+    timeline
+      .to(frame, {
+        value: SEQUENCE_FRAMES - 1,
+        duration: 1,
+        ease: "none",
+        onUpdate: () => canvas?.drawSequenceFrame?.(Math.round(frame.value)),
+      }, 0)
+      .to(".sequence-progress-fill", { scaleY: 1, duration: 1, ease: "none" }, 0)
+      .to(".sequence-copy-intro", { autoAlpha: 0, y: -28, duration: 0.08 }, 0.17)
+      .fromTo(".sequence-copy-energy", { autoAlpha: 0, y: 28 }, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.25)
+      .to(".sequence-copy-energy", { autoAlpha: 0, y: -28, duration: 0.08 }, 0.45)
+      .fromTo(".sequence-copy-water", { autoAlpha: 0, y: 28 }, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.53)
+      .to(".sequence-copy-water", { autoAlpha: 0, y: -28, duration: 0.08 }, 0.73)
+      .fromTo(".sequence-copy-final", { autoAlpha: 0, y: 28 }, { autoAlpha: 1, y: 0, duration: 0.09 }, 0.81);
+  }, { scope: sectionRef });
+
+  return (
+    <section className="climate-sequence" ref={sectionRef} aria-label="SunWindRain system in motion">
+      <div className="sequence-sticky">
+        <canvas
+          ref={canvasRef}
+          className={`sequence-canvas ${firstFrameReady ? "is-ready" : ""}`}
+          role="img"
+          aria-label="A rooftop SunWindRain device moves from solar generation through wind capture and rainwater recovery"
+        />
+        <div className="sequence-scrim" />
+        <div className="sequence-chrome" aria-hidden="true">
+          <span>SWR / FIELD SEQUENCE</span>
+          <span>SCROLL TO ACTIVATE</span>
+        </div>
+        <div className="sequence-progress" aria-hidden="true"><span className="sequence-progress-fill" /></div>
+
+        <div className="sequence-copy sequence-copy-intro">
+          <span className="sequence-index">01 / EXPOSE</span>
+          <h2>One footprint.<br/><i>Always working.</i></h2>
+          <p>Follow the system as changing rooftop conditions activate each resource layer.</p>
+        </div>
+        <div className="sequence-copy sequence-copy-energy">
+          <span className="sequence-index">02 / GENERATE</span>
+          <h2>Sun above.<br/><i>Wind in motion.</i></h2>
+          <p>The photovoltaic roof and vertical-axis turbine share a compact urban platform.</p>
+        </div>
+        <div className="sequence-copy sequence-copy-water">
+          <span className="sequence-index">03 / RECOVER</span>
+          <h2>Rain becomes<br/><i>a working resource.</i></h2>
+          <p>The same surface collects, routes and filters water through the integrated treatment path.</p>
+        </div>
+        <div className="sequence-copy sequence-copy-final">
+          <span className="sequence-index">04 / COORDINATE</span>
+          <h2>Three inputs.<br/><i>One resilient loop.</i></h2>
+          <p>Energy, water and sensing converge inside one responsive architecture.</p>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 function App() {
@@ -150,6 +319,8 @@ function App() {
         <section className="ticker">
           <div>☀ SOLAR</div><span>+</span><div>◒ WIND</div><span>+</span><div>◌ WATER</div><span>+</span><div>⌁ EDGE INTELLIGENCE</div>
         </section>
+
+        <ClimateSequence />
 
         <section id="research" className="problem section-pad">
           <div className="section-kicker">THE CONTEXT / 02</div>
