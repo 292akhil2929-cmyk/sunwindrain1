@@ -103,10 +103,10 @@ function ClimateSequence() {
         canvas.height = height;
       }
 
-      const scale = Math.max(width / image.naturalWidth, height / image.naturalHeight);
+      const scale = Math.min(width / image.naturalWidth, height / image.naturalHeight);
       const renderWidth = image.naturalWidth * scale;
       const renderHeight = image.naturalHeight * scale;
-      context.fillStyle = "#071d2c";
+      context.fillStyle = "#eef2ef";
       context.fillRect(0, 0, width, height);
       context.drawImage(image, (width - renderWidth) / 2, (height - renderHeight) / 2, renderWidth, renderHeight);
     };
@@ -188,7 +188,7 @@ function ClimateSequence() {
         ease: "none",
         onUpdate: () => canvas?.drawSequenceFrame?.(Math.round(frame.value)),
       }, 0)
-      .to(".sequence-progress-fill", { scaleY: 1, duration: 1, ease: "none" }, 0)
+      .to(".sequence-progress-fill", { scaleX: 1, duration: 1, ease: "none" }, 0)
       .to(".sequence-copy-intro", { autoAlpha: 0, y: -28, duration: 0.08 }, 0.17)
       .fromTo(".sequence-copy-energy", { autoAlpha: 0, y: 28 }, { autoAlpha: 1, y: 0, duration: 0.08 }, 0.25)
       .to(".sequence-copy-energy", { autoAlpha: 0, y: -28, duration: 0.08 }, 0.45)
@@ -200,38 +200,41 @@ function ClimateSequence() {
   return (
     <section className="climate-sequence" ref={sectionRef} aria-label="SunWindRain system in motion">
       <div className="sequence-sticky">
-        <canvas
-          ref={canvasRef}
-          className={`sequence-canvas ${firstFrameReady ? "is-ready" : ""}`}
-          role="img"
-          aria-label="A rooftop SunWindRain device moves from solar generation through wind capture and rainwater recovery"
-        />
-        <div className="sequence-scrim" />
-        <div className="sequence-chrome" aria-hidden="true">
-          <span>SWR / FIELD SEQUENCE</span>
-          <span>SCROLL TO ACTIVATE</span>
+        <div className="sequence-media">
+          <canvas
+            ref={canvasRef}
+            className={`sequence-canvas ${firstFrameReady ? "is-ready" : ""}`}
+            role="img"
+            aria-label="A rooftop SunWindRain device moves from solar generation through wind capture and rainwater recovery"
+          />
         </div>
-        <div className="sequence-progress" aria-hidden="true"><span className="sequence-progress-fill" /></div>
+        <div className="sequence-caption">
+          <div className="sequence-chrome" aria-hidden="true">
+            <span>SWR / FIELD SEQUENCE</span>
+            <span>SCROLL TO ACTIVATE</span>
+          </div>
+          <div className="sequence-progress" aria-hidden="true"><span className="sequence-progress-fill" /></div>
 
-        <div className="sequence-copy sequence-copy-intro">
-          <span className="sequence-index">01 / EXPOSE</span>
-          <h2>One footprint.<br/><i>Always working.</i></h2>
-          <p>Follow the system as changing rooftop conditions activate each resource layer.</p>
-        </div>
-        <div className="sequence-copy sequence-copy-energy">
-          <span className="sequence-index">02 / GENERATE</span>
-          <h2>Sun above.<br/><i>Wind in motion.</i></h2>
-          <p>The photovoltaic roof and vertical-axis turbine share a compact urban platform.</p>
-        </div>
-        <div className="sequence-copy sequence-copy-water">
-          <span className="sequence-index">03 / RECOVER</span>
-          <h2>Rain becomes<br/><i>a working resource.</i></h2>
-          <p>The same surface collects, routes and filters water through the integrated treatment path.</p>
-        </div>
-        <div className="sequence-copy sequence-copy-final">
-          <span className="sequence-index">04 / COORDINATE</span>
-          <h2>Three inputs.<br/><i>One resilient loop.</i></h2>
-          <p>Energy, water and sensing converge inside one responsive architecture.</p>
+          <div className="sequence-copy sequence-copy-intro">
+            <span className="sequence-index">01 / EXPOSE</span>
+            <h2>One footprint.<br/><i>Always working.</i></h2>
+            <p>Follow the system as changing rooftop conditions activate each resource layer.</p>
+          </div>
+          <div className="sequence-copy sequence-copy-energy">
+            <span className="sequence-index">02 / GENERATE</span>
+            <h2>Sun above.<br/><i>Wind in motion.</i></h2>
+            <p>The photovoltaic roof and vertical-axis turbine share a compact urban platform.</p>
+          </div>
+          <div className="sequence-copy sequence-copy-water">
+            <span className="sequence-index">03 / RECOVER</span>
+            <h2>Rain becomes<br/><i>a working resource.</i></h2>
+            <p>The same surface collects, routes and filters water through the integrated treatment path.</p>
+          </div>
+          <div className="sequence-copy sequence-copy-final">
+            <span className="sequence-index">04 / COORDINATE</span>
+            <h2>Three inputs.<br/><i>One resilient loop.</i></h2>
+            <p>Energy, water and sensing converge inside one responsive architecture.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -279,6 +282,8 @@ function App() {
       </header>
 
       <main id="top">
+        <ClimateSequence />
+
         <section className="hero section-pad">
           <div className="hero-copy">
             <div className="eyebrow"><span className="pulse" /> UAE URBAN RESOURCE SYSTEM / 01</div>
@@ -319,8 +324,6 @@ function App() {
         <section className="ticker">
           <div>☀ SOLAR</div><span>+</span><div>◒ WIND</div><span>+</span><div>◌ WATER</div><span>+</span><div>⌁ EDGE INTELLIGENCE</div>
         </section>
-
-        <ClimateSequence />
 
         <section id="research" className="problem section-pad">
           <div className="section-kicker">THE CONTEXT / 02</div>
