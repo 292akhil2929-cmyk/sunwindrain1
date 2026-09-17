@@ -184,7 +184,9 @@ function ClimateSequence() {
         ease: "none",
         onUpdate: () => canvas?.drawSequenceFrame?.(Math.round(frame.value)),
       }, 0)
-      .to(".sequence-progress-fill", { scaleX: 1, duration: 1, ease: "none" }, 0);
+      .to(".sequence-progress-fill", { scaleX: 1, duration: 1, ease: "none" }, 0)
+      .to(".sequence-scroll-orbit", { rotation: 270, duration: 1, ease: "none" }, 0)
+      .to(".sequence-scroll-meter-fill", { scaleY: 1, duration: 1, ease: "none" }, 0);
   }, { scope: sectionRef });
 
   return (
@@ -203,8 +205,11 @@ function ClimateSequence() {
             <img src="/welos-brand-transparent.png" alt="WELOS" />
           </div>
           <div className="sequence-scroll-cue" aria-hidden="true">
-            <span>Scroll</span>
-            <i />
+            <span className="sequence-scroll-orbit">
+              <span className="sequence-scroll-core"><i /><i /><i /></span>
+            </span>
+            <span className="sequence-scroll-copy"><b>Scroll</b><small>to explore</small></span>
+            <span className="sequence-scroll-meter"><i className="sequence-scroll-meter-fill" /></span>
           </div>
           <div className="sequence-chrome" aria-hidden="true">
             <span>WELOS / FIELD SEQUENCE</span>

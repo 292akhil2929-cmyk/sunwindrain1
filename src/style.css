@@ -21,10 +21,13 @@ button{font:inherit}
 .sequence-caption{position:absolute;inset:0;pointer-events:none}
 .sequence-brand{position:absolute;z-index:4;top:clamp(18px,3.2vw,42px);left:clamp(18px,3.2vw,42px);width:clamp(86px,8.2vw,118px);aspect-ratio:1}
 .sequence-brand img{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 1px 0 rgba(255,255,255,.2))}
-.sequence-scroll-cue{position:absolute;z-index:4;right:clamp(15px,2.3vw,32px);top:50%;display:flex;align-items:center;gap:12px;transform:translateY(-50%);writing-mode:vertical-rl;font-family:var(--mono);font-size:9px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#111;mix-blend-mode:multiply}
-.sequence-scroll-cue i{position:relative;display:block;width:1px;height:52px;background:rgba(17,17,17,.38);overflow:hidden}
-.sequence-scroll-cue i:after{content:"";position:absolute;inset:0;background:#f0aa13;transform:scaleY(.3);transform-origin:top;animation:scroll-cue 1.8s cubic-bezier(.76,0,.24,1) infinite}
-@keyframes scroll-cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+.sequence-scroll-cue{position:absolute;z-index:4;right:clamp(14px,2.2vw,30px);top:50%;display:grid;justify-items:center;gap:11px;transform:translateY(-50%);font-family:var(--mono);text-transform:uppercase;color:#101214;filter:drop-shadow(0 1px 0 rgba(255,255,255,.28))}
+.sequence-scroll-orbit{position:relative;width:44px;height:44px;border:1px solid rgba(16,18,20,.38);border-radius:50%;display:grid;place-items:center;will-change:transform}
+.sequence-scroll-orbit:before,.sequence-scroll-orbit:after{content:"";position:absolute;border-radius:50%}.sequence-scroll-orbit:before{inset:5px;border:1px solid transparent;border-top-color:#eea914;border-right-color:#eea914;transform:rotate(24deg)}.sequence-scroll-orbit:after{inset:-4px;border-top:1px solid rgba(16,18,20,.22);border-bottom:1px solid rgba(16,18,20,.22);transform:rotate(-34deg)}
+.sequence-scroll-core{position:relative;width:9px;height:9px;border-radius:50%;background:#eda913;box-shadow:0 0 0 3px rgba(237,169,19,.2),0 0 14px rgba(237,169,19,.52)}
+.sequence-scroll-core i{position:absolute;left:4px;top:-6px;width:1px;height:7px;background:#111;transform-origin:50% 10px}.sequence-scroll-core i:nth-child(2){transform:rotate(120deg)}.sequence-scroll-core i:nth-child(3){transform:rotate(240deg)}
+.sequence-scroll-copy{display:flex;align-items:center;gap:6px;writing-mode:vertical-rl;letter-spacing:.18em}.sequence-scroll-copy b{font-size:9px;font-weight:500}.sequence-scroll-copy small{font-size:6px;letter-spacing:.14em;opacity:.58}
+.sequence-scroll-meter{position:relative;display:block;width:1px;height:46px;background:rgba(16,18,20,.25);overflow:hidden}.sequence-scroll-meter-fill{position:absolute;inset:0;display:block;background:#eea914;transform:scaleY(0);transform-origin:top;will-change:transform}
 .sequence-chrome,.sequence-copy{display:none!important}
 .sequence-progress{position:absolute;z-index:3;left:0;right:0;bottom:0;height:2px;background:rgba(255,255,255,.32)}
 .sequence-progress-fill{display:block;width:100%;height:100%;background:var(--lime);transform:scaleX(0);transform-origin:left}
@@ -138,7 +141,7 @@ footer{background:#041723;color:#7e99a5;padding:28px clamp(24px,5vw,80px);displa
   .sequence-canvas{transition:none}
   .sequence-copy,.sequence-copy-final{display:none!important}
   .sequence-progress{display:none}
-  .sequence-scroll-cue i:after{animation:none;transform:scaleY(1)}
+  .sequence-scroll-orbit{transform:none!important}.sequence-scroll-meter-fill{transform:scaleY(1)!important}
   .spray{animation:none}
 }
 
@@ -147,5 +150,5 @@ footer{background:#041723;color:#7e99a5;padding:28px clamp(24px,5vw,80px);displa
   .sequence-caption{padding:0}
   .sequence-progress{left:0;right:0;bottom:0}
   .sequence-brand{top:14px;left:14px;width:78px}
-  .sequence-scroll-cue{right:12px;font-size:8px;gap:9px}.sequence-scroll-cue i{height:38px}
+  .sequence-scroll-cue{right:10px;gap:8px}.sequence-scroll-orbit{width:38px;height:38px}.sequence-scroll-copy small{display:none}.sequence-scroll-meter{height:34px}
 }
