@@ -1,0 +1,4 @@
+firmware/.pio/
+.playwright-cli/
+output/
+SunWindRain-Landing/
