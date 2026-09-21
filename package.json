@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:control": "node --test src/control/engine.test.js",
+    "check": "npm run test:control && npm run build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
