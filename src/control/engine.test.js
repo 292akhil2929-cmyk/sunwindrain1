@@ -28,6 +28,7 @@ test("emergency stop forces fail-safe isolation", () => {
   assert.equal(result.mode, MODES.FAULT);
   assert.equal(result.outputs.windBrake, true);
   assert.equal(result.outputs.batteryContactor, false);
+  assert.equal(result.outputs.gridContactor, false);
   assert.equal(result.outputs.cleaningPump, false);
 });
 

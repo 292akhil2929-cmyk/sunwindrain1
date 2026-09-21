@@ -13,7 +13,7 @@ The engine evaluates every cycle in this order:
 5. Supervisor requests.
 6. Normal renewable optimization.
 
-Emergency-stop, BMS, inverter, leak, temperature and wind protections cannot be bypassed by manual mode. A critical alarm opens the generation and storage contactors, applies the turbine brake, stops both pumps, closes the water valves and sheds the controlled load. The grid contactor remains available only when the grid and inverter are healthy.
+Emergency-stop, BMS, inverter, leak, temperature and wind protections cannot be bypassed by manual mode. A critical alarm opens the generation, storage and grid contactors, applies the turbine brake, stops both pumps, closes the water valves and sheds the controlled load.
 
 ## Automatic mode switching
 
@@ -51,10 +51,12 @@ The cleaning envelope also requires at least 15% soiling, wind below 5 m/s, irra
 - `src/control/main.jsx`: operator console and event journal.
 - `src/control/engine.test.js`: mode, safety and routing tests.
 - `control.html`: independent multi-page entry point; the public landing page is unchanged.
+- `firmware/`: autonomous ESP32-S3 Device OS, hardware I/O, local API and commissioning console.
+- `docs/DEVICE_API.md`: authenticated device protocol and alarm map.
 
 ## Field integration boundary
 
-For real equipment, replace the simulator with an authenticated, heartbeat-monitored transport adapter (for example an industrial gateway using MQTT over TLS or Modbus TCP behind the gateway). Map calibrated sensor readings into the engine's sensor object and map approved outputs into the PLC/MCU command register. The field controller must retain independent hard-wired protection for emergency stop, overcurrent, battery BMS isolation, turbine overspeed and pump dry-run.
+The repository now includes an ESP32-S3 field-controller implementation with local sensing, actuation, safety logic, watchdog, status API and commissioning access point. The field controller must still retain independent hard-wired protection for emergency stop, overcurrent, battery BMS isolation, turbine overspeed and pump dry-run.
 
 Before actuation, validate sensor ranges, relay polarity, safe default states, watchdog timeouts, contactor feedback, debounce intervals, energy-meter calibration, valve travel, local electrical code and the battery/turbine manufacturer's operating envelope. Run hardware-in-the-loop tests and a formal hazard review before enabling outputs.
 
@@ -64,6 +66,7 @@ Before actuation, validate sensor ranges, relay polarity, safe default states, w
 npm run dev
 npm run test:control
 npm run build
+pio run -d firmware
 ```
 
 Open `/control.html` for the console. The simulation advances one minute for every real-time second and exposes clear-day, dust, storm and grid-outage profiles.

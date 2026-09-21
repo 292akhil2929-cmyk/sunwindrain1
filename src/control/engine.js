@@ -96,7 +96,7 @@ function safeFaultOutputs(sensors) {
     windContactor: false,
     windBrake: true,
     batteryContactor: false,
-    gridContactor: Boolean(sensors.gridAvailable && !sensors.inverterFault),
+    gridContactor: false,
     firstFlushValve: false,
     storageValve: false,
     overflowValve: false,
