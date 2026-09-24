@@ -303,6 +303,19 @@ function createConnection(from, to, color) {
   return line;
 }
 
+export function createWelosAssembly(registry = new Map()) {
+  const root = new THREE.Group();
+  root.name = "WELOS concept system";
+  root.add(createController(registry), createSun(registry), createWind(registry), createFlow(registry), createFarm(registry));
+  root.add(
+    createConnection([-4.4, 1.8, -0.1], [-1.6, 0.9, -0.2], COLORS.amber),
+    createConnection([4.4, 1.8, -0.1], [1.6, 0.9, -0.2], COLORS.blue),
+    createConnection([-4.4, -2.3, -0.1], [-1.6, -0.9, -0.2], COLORS.cyan),
+    createConnection([4.2, -2.3, -0.1], [1.6, -0.9, -0.2], COLORS.green),
+  );
+  return root;
+}
+
 export function createWelosScene(container, { onSelect, onReady, onError }) {
   const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const registry = new Map();
@@ -354,15 +367,8 @@ export function createWelosScene(container, { onSelect, onReady, onError }) {
   scene.add(rim);
   scene.add(new THREE.HemisphereLight(0xc9d7cf, 0x171c19, 1.4));
 
-  const root = new THREE.Group();
+  const root = createWelosAssembly(registry);
   scene.add(root);
-  root.add(createController(registry), createSun(registry), createWind(registry), createFlow(registry), createFarm(registry));
-  root.add(
-    createConnection([-4.4, 1.8, -0.1], [-1.6, 0.9, -0.2], COLORS.amber),
-    createConnection([4.4, 1.8, -0.1], [1.6, 0.9, -0.2], COLORS.blue),
-    createConnection([-4.4, -2.3, -0.1], [-1.6, -0.9, -0.2], COLORS.cyan),
-    createConnection([4.2, -2.3, -0.1], [1.6, -0.9, -0.2], COLORS.green),
-  );
 
   const floor = new THREE.Mesh(
     new THREE.CircleGeometry(12, 72),
