@@ -1,0 +1,8343 @@
+{
+  "version": 5,
+  "nodes": [
+    {
+      "id": "welos-concept-001",
+      "name": "C01 Cabinet backplate",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 360,
+        "depth": 16,
+        "height": 440
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#aeb9b5"
+    },
+    {
+      "id": "welos-concept-002",
+      "name": "C01 Left enclosure rail",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 16,
+        "depth": 140,
+        "height": 440
+      },
+      "transform": {
+        "position": [
+          -184,
+          -70,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#89948f"
+    },
+    {
+      "id": "welos-concept-003",
+      "name": "C01 Right enclosure rail",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 16,
+        "depth": 140,
+        "height": 440
+      },
+      "transform": {
+        "position": [
+          184,
+          -70,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#89948f"
+    },
+    {
+      "id": "welos-concept-004",
+      "name": "C01 Top enclosure rail",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 384,
+        "depth": 140,
+        "height": 16
+      },
+      "transform": {
+        "position": [
+          0,
+          -70,
+          432
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#89948f"
+    },
+    {
+      "id": "welos-concept-005",
+      "name": "C01 Bottom enclosure rail",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 384,
+        "depth": 140,
+        "height": 16
+      },
+      "transform": {
+        "position": [
+          0,
+          -70,
+          8
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#89948f"
+    },
+    {
+      "id": "welos-concept-006",
+      "name": "C01 Exploded access door",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 360,
+        "depth": 12,
+        "height": 440
+      },
+      "transform": {
+        "position": [
+          430,
+          -250,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#d8dfd9"
+    },
+    {
+      "id": "welos-concept-007",
+      "name": "C03 Controller PCB",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 130,
+        "depth": 12,
+        "height": 105
+      },
+      "transform": {
+        "position": [
+          -95,
+          -60,
+          335
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1c8056"
+    },
+    {
+      "id": "welos-concept-008",
+      "name": "C03 ESP32-S3 module",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 53,
+        "depth": 10,
+        "height": 45
+      },
+      "transform": {
+        "position": [
+          -105,
+          -72,
+          350
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1b2420"
+    },
+    {
+      "id": "welos-concept-009",
+      "name": "C04 Energy meter",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 90,
+        "depth": 48,
+        "height": 125
+      },
+      "transform": {
+        "position": [
+          98,
+          -65,
+          320
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e6e8df"
+    },
+    {
+      "id": "welos-concept-010",
+      "name": "C04 Meter display",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 65,
+        "depth": 8,
+        "height": 34
+      },
+      "transform": {
+        "position": [
+          98,
+          -93,
+          345
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#18344b"
+    },
+    {
+      "id": "welos-concept-011",
+      "name": "C05 Protection DIN rail",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 300,
+        "depth": 25,
+        "height": 15
+      },
+      "transform": {
+        "position": [
+          0,
+          -45,
+          245
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#838b87"
+    },
+    {
+      "id": "welos-concept-012",
+      "name": "C05 Breaker 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 44,
+        "depth": 44,
+        "height": 88
+      },
+      "transform": {
+        "position": [
+          -120,
+          -68,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e5e8df"
+    },
+    {
+      "id": "welos-concept-013",
+      "name": "C05 Breaker 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 44,
+        "depth": 44,
+        "height": 88
+      },
+      "transform": {
+        "position": [
+          -60,
+          -68,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e5e8df"
+    },
+    {
+      "id": "welos-concept-014",
+      "name": "C05 Breaker 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 44,
+        "depth": 44,
+        "height": 88
+      },
+      "transform": {
+        "position": [
+          0,
+          -68,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#df7647"
+    },
+    {
+      "id": "welos-concept-015",
+      "name": "C05 Breaker 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 44,
+        "depth": 44,
+        "height": 88
+      },
+      "transform": {
+        "position": [
+          60,
+          -68,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e5e8df"
+    },
+    {
+      "id": "welos-concept-016",
+      "name": "C05 Breaker 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 44,
+        "depth": 44,
+        "height": 88
+      },
+      "transform": {
+        "position": [
+          120,
+          -68,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e5e8df"
+    },
+    {
+      "id": "welos-concept-017",
+      "name": "C06 Communications gateway",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 110,
+        "depth": 55,
+        "height": 65
+      },
+      "transform": {
+        "position": [
+          -105,
+          -62,
+          105
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#28342e"
+    },
+    {
+      "id": "welos-concept-018",
+      "name": "C07 Terminal 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 30,
+        "depth": 35,
+        "height": 48
+      },
+      "transform": {
+        "position": [
+          45,
+          -63,
+          103
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#3d88c4"
+    },
+    {
+      "id": "welos-concept-019",
+      "name": "C07 Terminal 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 30,
+        "depth": 35,
+        "height": 48
+      },
+      "transform": {
+        "position": [
+          83,
+          -63,
+          103
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#3d88c4"
+    },
+    {
+      "id": "welos-concept-020",
+      "name": "C07 Terminal 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 30,
+        "depth": 35,
+        "height": 48
+      },
+      "transform": {
+        "position": [
+          121,
+          -63,
+          103
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#73a473"
+    },
+    {
+      "id": "welos-concept-021",
+      "name": "C07 Terminal 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 30,
+        "depth": 35,
+        "height": 48
+      },
+      "transform": {
+        "position": [
+          159,
+          -63,
+          103
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#73a473"
+    },
+    {
+      "id": "welos-concept-022",
+      "name": "C08 Cabinet ventilation fan",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 38,
+        "height": 18
+      },
+      "transform": {
+        "position": [
+          130,
+          -85,
+          380
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#2b3431"
+    },
+    {
+      "id": "welos-concept-023",
+      "name": "S01 Solar stand",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 15,
+        "height": 260
+      },
+      "transform": {
+        "position": [
+          -640,
+          380,
+          130
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8d9792"
+    },
+    {
+      "id": "welos-concept-024",
+      "name": "S01 PV module frame",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 510,
+        "depth": 30,
+        "height": 320
+      },
+      "transform": {
+        "position": [
+          -640,
+          380,
+          400
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#39464a"
+    },
+    {
+      "id": "welos-concept-025",
+      "name": "S01 PV cell strip 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 110,
+        "depth": 8,
+        "height": 284
+      },
+      "transform": {
+        "position": [
+          -820,
+          355,
+          400
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#285f78"
+    },
+    {
+      "id": "welos-concept-026",
+      "name": "S01 PV cell strip 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 110,
+        "depth": 8,
+        "height": 284
+      },
+      "transform": {
+        "position": [
+          -700,
+          355,
+          400
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#285f78"
+    },
+    {
+      "id": "welos-concept-027",
+      "name": "S01 PV cell strip 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 110,
+        "depth": 8,
+        "height": 284
+      },
+      "transform": {
+        "position": [
+          -580,
+          355,
+          400
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#285f78"
+    },
+    {
+      "id": "welos-concept-028",
+      "name": "S01 PV cell strip 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 110,
+        "depth": 8,
+        "height": 284
+      },
+      "transform": {
+        "position": [
+          -460,
+          355,
+          400
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#285f78"
+    },
+    {
+      "id": "welos-concept-029",
+      "name": "F01 Water conduit",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 57,
+        "height": 430
+      },
+      "transform": {
+        "position": [
+          -650,
+          -390,
+          145
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#3f8abc"
+    },
+    {
+      "id": "welos-concept-030",
+      "name": "F01 Turbine casing",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 100,
+        "height": 75
+      },
+      "transform": {
+        "position": [
+          -650,
+          -390,
+          165
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#828d88"
+    },
+    {
+      "id": "welos-concept-031",
+      "name": "F01 Rotor hub",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 45,
+        "height": 85
+      },
+      "transform": {
+        "position": [
+          -650,
+          -342,
+          165
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#c98139"
+    },
+    {
+      "id": "welos-concept-032",
+      "name": "F01 Generator housing",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 145,
+        "depth": 110,
+        "height": 95
+      },
+      "transform": {
+        "position": [
+          -650,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#24343b"
+    },
+    {
+      "id": "welos-concept-033",
+      "name": "B01 Anaerobic digester",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 130,
+        "height": 270
+      },
+      "transform": {
+        "position": [
+          610,
+          -390,
+          135
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#528665"
+    },
+    {
+      "id": "welos-concept-034",
+      "name": "B01 Gas holder dome",
+      "kind": "primitive",
+      "type": "sphere",
+      "params": {
+        "radius": 125
+      },
+      "transform": {
+        "position": [
+          610,
+          -390,
+          285
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#73a87c"
+    },
+    {
+      "id": "welos-concept-035",
+      "name": "B01 Engine generator",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 180,
+        "depth": 130,
+        "height": 110
+      },
+      "transform": {
+        "position": [
+          810,
+          -390,
+          70
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#2b332f"
+    },
+    {
+      "id": "welos-concept-036",
+      "name": "B01 Biogas line",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 12,
+        "height": 175
+      },
+      "transform": {
+        "position": [
+          730,
+          -390,
+          175
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#d89b3d"
+    },
+    {
+      "id": "welos-concept-037",
+      "name": "W01 Tower",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 17,
+        "height": 520
+      },
+      "transform": {
+        "position": [
+          650,
+          390,
+          260
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#bfc8c2"
+    },
+    {
+      "id": "welos-concept-038",
+      "name": "W01 Nacelle",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 150,
+        "depth": 78,
+        "height": 65
+      },
+      "transform": {
+        "position": [
+          650,
+          390,
+          545
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e0e6e0"
+    },
+    {
+      "id": "welos-concept-039",
+      "name": "W01 Rotor hub",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 28,
+        "height": 45
+      },
+      "transform": {
+        "position": [
+          650,
+          330,
+          545
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#d69642"
+    },
+    {
+      "id": "welos-concept-040",
+      "name": "W01 Blade 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 27,
+        "depth": 16,
+        "height": 225
+      },
+      "transform": {
+        "position": [
+          650,
+          300,
+          680
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e7ece7"
+    },
+    {
+      "id": "welos-concept-041",
+      "name": "W01 Blade 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 27,
+        "depth": 16,
+        "height": 225
+      },
+      "transform": {
+        "position": [
+          764,
+          300,
+          477
+        ],
+        "rotation": [
+          0,
+          -2.094,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e7ece7"
+    },
+    {
+      "id": "welos-concept-042",
+      "name": "W01 Blade 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 27,
+        "depth": 16,
+        "height": 225
+      },
+      "transform": {
+        "position": [
+          536,
+          300,
+          477
+        ],
+        "rotation": [
+          0,
+          2.094,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e7ece7"
+    },
+    {
+      "id": "welos-concept-043",
+      "name": "C01 Door inset panel",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 322,
+        "depth": 4,
+        "height": 398
+      },
+      "transform": {
+        "position": [
+          430,
+          -260,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b9c5c1"
+    },
+    {
+      "id": "welos-concept-044",
+      "name": "C01 Door gasket",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 290,
+        "depth": 3,
+        "height": 360
+      },
+      "transform": {
+        "position": [
+          430,
+          -264,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-045",
+      "name": "C01 Smoked inspection window",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 258,
+        "depth": 4,
+        "height": 170
+      },
+      "transform": {
+        "position": [
+          430,
+          -268,
+          304
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#233945"
+    },
+    {
+      "id": "welos-concept-046",
+      "name": "C01 Window internal display",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 172,
+        "depth": 3,
+        "height": 82
+      },
+      "transform": {
+        "position": [
+          430,
+          -272,
+          312
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#14546c"
+    },
+    {
+      "id": "welos-concept-047",
+      "name": "C01 Door vertical trim 292",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 7,
+        "height": 402
+      },
+      "transform": {
+        "position": [
+          292,
+          -267,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-048",
+      "name": "C01 Door vertical trim 568",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 7,
+        "height": 402
+      },
+      "transform": {
+        "position": [
+          568,
+          -267,
+          220
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-049",
+      "name": "C01 Door horizontal trim 22",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 310,
+        "depth": 7,
+        "height": 7
+      },
+      "transform": {
+        "position": [
+          430,
+          -267,
+          22
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-050",
+      "name": "C01 Door horizontal trim 418",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 310,
+        "depth": 7,
+        "height": 7
+      },
+      "transform": {
+        "position": [
+          430,
+          -267,
+          418
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-051",
+      "name": "C01 Hinge barrel 95",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 11,
+        "height": 52
+      },
+      "transform": {
+        "position": [
+          255,
+          -208,
+          95
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-052",
+      "name": "C01 Hinge barrel 350",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 11,
+        "height": 52
+      },
+      "transform": {
+        "position": [
+          255,
+          -208,
+          350
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-053",
+      "name": "C01 Door handle escutcheon",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 25,
+        "depth": 10,
+        "height": 85
+      },
+      "transform": {
+        "position": [
+          565,
+          -272,
+          210
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-054",
+      "name": "C01 Door handle shaft",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 11,
+        "height": 28
+      },
+      "transform": {
+        "position": [
+          565,
+          -285,
+          210
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-055",
+      "name": "C01 Door handle grip",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 12,
+        "depth": 19,
+        "height": 60
+      },
+      "transform": {
+        "position": [
+          565,
+          -305,
+          194
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-056",
+      "name": "C01 Door status lamp 1",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 8,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          355,
+          -278,
+          163
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#4fbf79"
+    },
+    {
+      "id": "welos-concept-057",
+      "name": "C01 Door status lamp 2",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 8,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          383,
+          -278,
+          163
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e6b451"
+    },
+    {
+      "id": "welos-concept-058",
+      "name": "C01 Door status lamp 3",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 8,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          411,
+          -278,
+          163
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#c7544d"
+    },
+    {
+      "id": "welos-concept-059",
+      "name": "C01 Cooling vent 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          353,
+          -270,
+          68
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-060",
+      "name": "C01 Cooling vent 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          388,
+          -270,
+          68
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-061",
+      "name": "C01 Cooling vent 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          423,
+          -270,
+          68
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-062",
+      "name": "C01 Cooling vent 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          458,
+          -270,
+          68
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-063",
+      "name": "C01 Cooling vent 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          493,
+          -270,
+          68
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-064",
+      "name": "C01 Cooling vent 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          353,
+          -270,
+          80
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-065",
+      "name": "C01 Cooling vent 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          388,
+          -270,
+          80
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-066",
+      "name": "C01 Cooling vent 8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          423,
+          -270,
+          80
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-067",
+      "name": "C01 Cooling vent 9",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          458,
+          -270,
+          80
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-068",
+      "name": "C01 Cooling vent 10",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 45,
+        "depth": 4,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          493,
+          -270,
+          80
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596866"
+    },
+    {
+      "id": "welos-concept-069",
+      "name": "C01 Mounting bolt -155 30",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 6,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          -155,
+          -86,
+          30
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-070",
+      "name": "C01 Mounting bolt -155 410",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 6,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          -155,
+          -86,
+          410
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-071",
+      "name": "C01 Mounting bolt 155 30",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 6,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          155,
+          -86,
+          30
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-072",
+      "name": "C01 Mounting bolt 155 410",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 6,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          155,
+          -86,
+          410
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-073",
+      "name": "C03 ESP32 RF shield",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 38,
+        "depth": 3,
+        "height": 29
+      },
+      "transform": {
+        "position": [
+          -105,
+          -80,
+          355
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b5bdb9"
+    },
+    {
+      "id": "welos-concept-074",
+      "name": "C03 Antenna keep-out",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 48,
+        "depth": 3,
+        "height": 10
+      },
+      "transform": {
+        "position": [
+          -105,
+          -81,
+          375
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#c99f5b"
+    },
+    {
+      "id": "welos-concept-075",
+      "name": "C03 USB-C connector",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 18,
+        "depth": 10,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -95,
+          -83,
+          318
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-076",
+      "name": "C03 Header -128 pin 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -128,
+          -82,
+          331
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-077",
+      "name": "C03 Header -128 pin 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -128,
+          -82,
+          336
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-078",
+      "name": "C03 Header -128 pin 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -128,
+          -82,
+          341
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-079",
+      "name": "C03 Header -128 pin 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -128,
+          -82,
+          346
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-080",
+      "name": "C03 Header -128 pin 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -128,
+          -82,
+          351
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-081",
+      "name": "C03 Header -128 pin 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -128,
+          -82,
+          356
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-082",
+      "name": "C03 Header -128 pin 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -128,
+          -82,
+          361
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-083",
+      "name": "C03 Header -128 pin 8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -128,
+          -82,
+          366
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-084",
+      "name": "C03 Header -82 pin 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -82,
+          -82,
+          331
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-085",
+      "name": "C03 Header -82 pin 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -82,
+          -82,
+          336
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-086",
+      "name": "C03 Header -82 pin 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -82,
+          -82,
+          341
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-087",
+      "name": "C03 Header -82 pin 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -82,
+          -82,
+          346
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-088",
+      "name": "C03 Header -82 pin 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -82,
+          -82,
+          351
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-089",
+      "name": "C03 Header -82 pin 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -82,
+          -82,
+          356
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-090",
+      "name": "C03 Header -82 pin 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -82,
+          -82,
+          361
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-091",
+      "name": "C03 Header -82 pin 8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 3,
+        "depth": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -82,
+          -82,
+          366
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-092",
+      "name": "C03 SMD component 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -151,
+          -79,
+          300
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#bcb7a2"
+    },
+    {
+      "id": "welos-concept-093",
+      "name": "C03 SMD component 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -135,
+          -79,
+          300
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#242e2c"
+    },
+    {
+      "id": "welos-concept-094",
+      "name": "C03 SMD component 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -119,
+          -79,
+          300
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#242e2c"
+    },
+    {
+      "id": "welos-concept-095",
+      "name": "C03 SMD component 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -103,
+          -79,
+          300
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#bcb7a2"
+    },
+    {
+      "id": "welos-concept-096",
+      "name": "C03 SMD component 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -87,
+          -79,
+          300
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#242e2c"
+    },
+    {
+      "id": "welos-concept-097",
+      "name": "C03 SMD component 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -71,
+          -79,
+          300
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#242e2c"
+    },
+    {
+      "id": "welos-concept-098",
+      "name": "C03 SMD component 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -151,
+          -79,
+          310
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#bcb7a2"
+    },
+    {
+      "id": "welos-concept-099",
+      "name": "C03 SMD component 8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -135,
+          -79,
+          310
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#242e2c"
+    },
+    {
+      "id": "welos-concept-100",
+      "name": "C03 SMD component 9",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -119,
+          -79,
+          310
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#242e2c"
+    },
+    {
+      "id": "welos-concept-101",
+      "name": "C03 SMD component 10",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -103,
+          -79,
+          310
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#bcb7a2"
+    },
+    {
+      "id": "welos-concept-102",
+      "name": "C03 SMD component 11",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -87,
+          -79,
+          310
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#242e2c"
+    },
+    {
+      "id": "welos-concept-103",
+      "name": "C03 SMD component 12",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 6,
+        "depth": 3,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -71,
+          -79,
+          310
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#242e2c"
+    },
+    {
+      "id": "welos-concept-104",
+      "name": "C03 Plug-in relay 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 24,
+        "depth": 19,
+        "height": 22
+      },
+      "transform": {
+        "position": [
+          -148,
+          -85,
+          385
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#273f45"
+    },
+    {
+      "id": "welos-concept-105",
+      "name": "C03 Plug-in relay 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 24,
+        "depth": 19,
+        "height": 22
+      },
+      "transform": {
+        "position": [
+          -117,
+          -85,
+          385
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#273f45"
+    },
+    {
+      "id": "welos-concept-106",
+      "name": "C03 Plug-in relay 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 24,
+        "depth": 19,
+        "height": 22
+      },
+      "transform": {
+        "position": [
+          -86,
+          -85,
+          385
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#273f45"
+    },
+    {
+      "id": "welos-concept-107",
+      "name": "C03 Plug-in relay 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 24,
+        "depth": 19,
+        "height": 22
+      },
+      "transform": {
+        "position": [
+          -55,
+          -85,
+          385
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#273f45"
+    },
+    {
+      "id": "welos-concept-108",
+      "name": "C03 Copper trace 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 2,
+        "height": 1.5
+      },
+      "transform": {
+        "position": [
+          -147,
+          -78,
+          286
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-109",
+      "name": "C03 Copper trace 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 2,
+        "height": 1.5
+      },
+      "transform": {
+        "position": [
+          -112,
+          -78,
+          286
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-110",
+      "name": "C03 Copper trace 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 2,
+        "height": 1.5
+      },
+      "transform": {
+        "position": [
+          -77,
+          -78,
+          286
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-111",
+      "name": "C03 Copper trace 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 2,
+        "height": 1.5
+      },
+      "transform": {
+        "position": [
+          -147,
+          -78,
+          294
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-112",
+      "name": "C03 Copper trace 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 2,
+        "height": 1.5
+      },
+      "transform": {
+        "position": [
+          -112,
+          -78,
+          294
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-113",
+      "name": "C03 Copper trace 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 2,
+        "height": 1.5
+      },
+      "transform": {
+        "position": [
+          -77,
+          -78,
+          294
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-114",
+      "name": "C04 Meter display glass",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 59,
+        "depth": 3,
+        "height": 25
+      },
+      "transform": {
+        "position": [
+          98,
+          -99,
+          345
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#61a9ad"
+    },
+    {
+      "id": "welos-concept-115",
+      "name": "C04 Meter soft key 1",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          76,
+          -96,
+          291
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#879792"
+    },
+    {
+      "id": "welos-concept-116",
+      "name": "C04 Meter soft key 2",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          97,
+          -96,
+          291
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#879792"
+    },
+    {
+      "id": "welos-concept-117",
+      "name": "C04 Meter soft key 3",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          118,
+          -96,
+          291
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#879792"
+    },
+    {
+      "id": "welos-concept-118",
+      "name": "C05 Breaker 1 front face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 3,
+        "height": 75
+      },
+      "transform": {
+        "position": [
+          -120,
+          -93,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e8ebe5"
+    },
+    {
+      "id": "welos-concept-119",
+      "name": "C05 Breaker 1 switch",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 13,
+        "depth": 8,
+        "height": 21
+      },
+      "transform": {
+        "position": [
+          -120,
+          -99,
+          210
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#313b3b"
+    },
+    {
+      "id": "welos-concept-120",
+      "name": "C05 Breaker 1 indicator",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 22,
+        "depth": 2,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          -120,
+          -95,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#6e9f75"
+    },
+    {
+      "id": "welos-concept-121",
+      "name": "C05 Breaker 1 screw 161",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -120,
+          -95,
+          161
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-122",
+      "name": "C05 Breaker 1 screw 245",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -120,
+          -95,
+          245
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-123",
+      "name": "C05 Breaker 2 front face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 3,
+        "height": 75
+      },
+      "transform": {
+        "position": [
+          -60,
+          -93,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e8ebe5"
+    },
+    {
+      "id": "welos-concept-124",
+      "name": "C05 Breaker 2 switch",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 13,
+        "depth": 8,
+        "height": 21
+      },
+      "transform": {
+        "position": [
+          -60,
+          -99,
+          210
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#313b3b"
+    },
+    {
+      "id": "welos-concept-125",
+      "name": "C05 Breaker 2 indicator",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 22,
+        "depth": 2,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          -60,
+          -95,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#6e9f75"
+    },
+    {
+      "id": "welos-concept-126",
+      "name": "C05 Breaker 2 screw 161",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -60,
+          -95,
+          161
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-127",
+      "name": "C05 Breaker 2 screw 245",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          -60,
+          -95,
+          245
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-128",
+      "name": "C05 Breaker 3 front face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 3,
+        "height": 75
+      },
+      "transform": {
+        "position": [
+          0,
+          -93,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e8ebe5"
+    },
+    {
+      "id": "welos-concept-129",
+      "name": "C05 Breaker 3 switch",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 13,
+        "depth": 8,
+        "height": 21
+      },
+      "transform": {
+        "position": [
+          0,
+          -99,
+          210
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#bd5e43"
+    },
+    {
+      "id": "welos-concept-130",
+      "name": "C05 Breaker 3 indicator",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 22,
+        "depth": 2,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          0,
+          -95,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#bd5e43"
+    },
+    {
+      "id": "welos-concept-131",
+      "name": "C05 Breaker 3 screw 161",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          0,
+          -95,
+          161
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-132",
+      "name": "C05 Breaker 3 screw 245",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          0,
+          -95,
+          245
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-133",
+      "name": "C05 Breaker 4 front face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 3,
+        "height": 75
+      },
+      "transform": {
+        "position": [
+          60,
+          -93,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e8ebe5"
+    },
+    {
+      "id": "welos-concept-134",
+      "name": "C05 Breaker 4 switch",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 13,
+        "depth": 8,
+        "height": 21
+      },
+      "transform": {
+        "position": [
+          60,
+          -99,
+          210
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#313b3b"
+    },
+    {
+      "id": "welos-concept-135",
+      "name": "C05 Breaker 4 indicator",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 22,
+        "depth": 2,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          60,
+          -95,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#6e9f75"
+    },
+    {
+      "id": "welos-concept-136",
+      "name": "C05 Breaker 4 screw 161",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          60,
+          -95,
+          161
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-137",
+      "name": "C05 Breaker 4 screw 245",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          60,
+          -95,
+          245
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-138",
+      "name": "C05 Breaker 5 front face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 39,
+        "depth": 3,
+        "height": 75
+      },
+      "transform": {
+        "position": [
+          120,
+          -93,
+          203
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e8ebe5"
+    },
+    {
+      "id": "welos-concept-139",
+      "name": "C05 Breaker 5 switch",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 13,
+        "depth": 8,
+        "height": 21
+      },
+      "transform": {
+        "position": [
+          120,
+          -99,
+          210
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#313b3b"
+    },
+    {
+      "id": "welos-concept-140",
+      "name": "C05 Breaker 5 indicator",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 22,
+        "depth": 2,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          120,
+          -95,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#6e9f75"
+    },
+    {
+      "id": "welos-concept-141",
+      "name": "C05 Breaker 5 screw 161",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          120,
+          -95,
+          161
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-142",
+      "name": "C05 Breaker 5 screw 245",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          120,
+          -95,
+          245
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-143",
+      "name": "C07 Terminal 1 face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 24,
+        "depth": 4,
+        "height": 39
+      },
+      "transform": {
+        "position": [
+          45,
+          -83,
+          104
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#2d709d"
+    },
+    {
+      "id": "welos-concept-144",
+      "name": "C07 Terminal 1 screw",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 6,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          45,
+          -87,
+          113
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-145",
+      "name": "C07 Terminal 1 port",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 12,
+        "depth": 3,
+        "height": 7
+      },
+      "transform": {
+        "position": [
+          45,
+          -87,
+          89
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-146",
+      "name": "C07 Terminal 2 face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 24,
+        "depth": 4,
+        "height": 39
+      },
+      "transform": {
+        "position": [
+          83,
+          -83,
+          104
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#2d709d"
+    },
+    {
+      "id": "welos-concept-147",
+      "name": "C07 Terminal 2 screw",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 6,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          83,
+          -87,
+          113
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-148",
+      "name": "C07 Terminal 2 port",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 12,
+        "depth": 3,
+        "height": 7
+      },
+      "transform": {
+        "position": [
+          83,
+          -87,
+          89
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-149",
+      "name": "C07 Terminal 3 face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 24,
+        "depth": 4,
+        "height": 39
+      },
+      "transform": {
+        "position": [
+          121,
+          -83,
+          104
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d9168"
+    },
+    {
+      "id": "welos-concept-150",
+      "name": "C07 Terminal 3 screw",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 6,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          121,
+          -87,
+          113
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-151",
+      "name": "C07 Terminal 3 port",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 12,
+        "depth": 3,
+        "height": 7
+      },
+      "transform": {
+        "position": [
+          121,
+          -87,
+          89
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-152",
+      "name": "C07 Terminal 4 face",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 24,
+        "depth": 4,
+        "height": 39
+      },
+      "transform": {
+        "position": [
+          159,
+          -83,
+          104
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d9168"
+    },
+    {
+      "id": "welos-concept-153",
+      "name": "C07 Terminal 4 screw",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 6,
+        "height": 4
+      },
+      "transform": {
+        "position": [
+          159,
+          -87,
+          113
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-154",
+      "name": "C07 Terminal 4 port",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 12,
+        "depth": 3,
+        "height": 7
+      },
+      "transform": {
+        "position": [
+          159,
+          -87,
+          89
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-155",
+      "name": "C08 Fan guard spoke 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 4,
+        "height": 68
+      },
+      "transform": {
+        "position": [
+          130,
+          -98,
+          380
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-156",
+      "name": "C08 Fan guard spoke 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 4,
+        "height": 68
+      },
+      "transform": {
+        "position": [
+          130,
+          -98,
+          380
+        ],
+        "rotation": [
+          0,
+          0.7853981633974483,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-157",
+      "name": "C08 Fan guard spoke 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 4,
+        "height": 68
+      },
+      "transform": {
+        "position": [
+          130,
+          -98,
+          380
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-158",
+      "name": "C08 Fan guard spoke 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 4,
+        "height": 68
+      },
+      "transform": {
+        "position": [
+          130,
+          -98,
+          380
+        ],
+        "rotation": [
+          0,
+          2.356194490192345,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-159",
+      "name": "C08 Fan guard spoke 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 4,
+        "height": 68
+      },
+      "transform": {
+        "position": [
+          130,
+          -98,
+          380
+        ],
+        "rotation": [
+          0,
+          3.141592653589793,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-160",
+      "name": "C08 Fan guard spoke 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 4,
+        "height": 68
+      },
+      "transform": {
+        "position": [
+          130,
+          -98,
+          380
+        ],
+        "rotation": [
+          0,
+          3.9269908169872414,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-161",
+      "name": "C08 Fan guard spoke 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 4,
+        "height": 68
+      },
+      "transform": {
+        "position": [
+          130,
+          -98,
+          380
+        ],
+        "rotation": [
+          0,
+          4.71238898038469,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-162",
+      "name": "C08 Fan guard spoke 8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 4,
+        "height": 68
+      },
+      "transform": {
+        "position": [
+          130,
+          -98,
+          380
+        ],
+        "rotation": [
+          0,
+          5.497787143782138,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-163",
+      "name": "S01 PV glass cell R1 C1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -852,
+          348,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-164",
+      "name": "S01 Cell busbar R1 C1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -852,
+          344,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-165",
+      "name": "S01 PV glass cell R1 C2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -791,
+          348,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-166",
+      "name": "S01 Cell busbar R1 C2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -791,
+          344,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-167",
+      "name": "S01 PV glass cell R1 C3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -730,
+          348,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-168",
+      "name": "S01 Cell busbar R1 C3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -730,
+          344,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-169",
+      "name": "S01 PV glass cell R1 C4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -669,
+          348,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-170",
+      "name": "S01 Cell busbar R1 C4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -669,
+          344,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-171",
+      "name": "S01 PV glass cell R1 C5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -608,
+          348,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-172",
+      "name": "S01 Cell busbar R1 C5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -608,
+          344,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-173",
+      "name": "S01 PV glass cell R1 C6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -547,
+          348,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-174",
+      "name": "S01 Cell busbar R1 C6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -547,
+          344,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-175",
+      "name": "S01 PV glass cell R1 C7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -486,
+          348,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-176",
+      "name": "S01 Cell busbar R1 C7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -486,
+          344,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-177",
+      "name": "S01 PV glass cell R1 C8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -425,
+          348,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-178",
+      "name": "S01 Cell busbar R1 C8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -425,
+          344,
+          292
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-179",
+      "name": "S01 PV glass cell R2 C1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -852,
+          348,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-180",
+      "name": "S01 Cell busbar R2 C1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -852,
+          344,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-181",
+      "name": "S01 PV glass cell R2 C2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -791,
+          348,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-182",
+      "name": "S01 Cell busbar R2 C2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -791,
+          344,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-183",
+      "name": "S01 PV glass cell R2 C3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -730,
+          348,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-184",
+      "name": "S01 Cell busbar R2 C3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -730,
+          344,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-185",
+      "name": "S01 PV glass cell R2 C4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -669,
+          348,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-186",
+      "name": "S01 Cell busbar R2 C4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -669,
+          344,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-187",
+      "name": "S01 PV glass cell R2 C5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -608,
+          348,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-188",
+      "name": "S01 Cell busbar R2 C5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -608,
+          344,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-189",
+      "name": "S01 PV glass cell R2 C6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -547,
+          348,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-190",
+      "name": "S01 Cell busbar R2 C6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -547,
+          344,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-191",
+      "name": "S01 PV glass cell R2 C7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -486,
+          348,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-192",
+      "name": "S01 Cell busbar R2 C7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -486,
+          344,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-193",
+      "name": "S01 PV glass cell R2 C8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -425,
+          348,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-194",
+      "name": "S01 Cell busbar R2 C8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -425,
+          344,
+          364
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-195",
+      "name": "S01 PV glass cell R3 C1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -852,
+          348,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-196",
+      "name": "S01 Cell busbar R3 C1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -852,
+          344,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-197",
+      "name": "S01 PV glass cell R3 C2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -791,
+          348,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-198",
+      "name": "S01 Cell busbar R3 C2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -791,
+          344,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-199",
+      "name": "S01 PV glass cell R3 C3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -730,
+          348,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-200",
+      "name": "S01 Cell busbar R3 C3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -730,
+          344,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-201",
+      "name": "S01 PV glass cell R3 C4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -669,
+          348,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-202",
+      "name": "S01 Cell busbar R3 C4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -669,
+          344,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-203",
+      "name": "S01 PV glass cell R3 C5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -608,
+          348,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-204",
+      "name": "S01 Cell busbar R3 C5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -608,
+          344,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-205",
+      "name": "S01 PV glass cell R3 C6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -547,
+          348,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-206",
+      "name": "S01 Cell busbar R3 C6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -547,
+          344,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-207",
+      "name": "S01 PV glass cell R3 C7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -486,
+          348,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-208",
+      "name": "S01 Cell busbar R3 C7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -486,
+          344,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-209",
+      "name": "S01 PV glass cell R3 C8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -425,
+          348,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-210",
+      "name": "S01 Cell busbar R3 C8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -425,
+          344,
+          436
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-211",
+      "name": "S01 PV glass cell R4 C1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -852,
+          348,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-212",
+      "name": "S01 Cell busbar R4 C1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -852,
+          344,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-213",
+      "name": "S01 PV glass cell R4 C2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -791,
+          348,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-214",
+      "name": "S01 Cell busbar R4 C2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -791,
+          344,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-215",
+      "name": "S01 PV glass cell R4 C3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -730,
+          348,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-216",
+      "name": "S01 Cell busbar R4 C3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -730,
+          344,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-217",
+      "name": "S01 PV glass cell R4 C4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -669,
+          348,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-218",
+      "name": "S01 Cell busbar R4 C4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -669,
+          344,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-219",
+      "name": "S01 PV glass cell R4 C5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -608,
+          348,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-220",
+      "name": "S01 Cell busbar R4 C5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -608,
+          344,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-221",
+      "name": "S01 PV glass cell R4 C6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -547,
+          348,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-222",
+      "name": "S01 Cell busbar R4 C6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -547,
+          344,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-223",
+      "name": "S01 PV glass cell R4 C7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -486,
+          348,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#20556f"
+    },
+    {
+      "id": "welos-concept-224",
+      "name": "S01 Cell busbar R4 C7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -486,
+          344,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-225",
+      "name": "S01 PV glass cell R4 C8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 56,
+        "depth": 3,
+        "height": 64
+      },
+      "transform": {
+        "position": [
+          -425,
+          348,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#174c65"
+    },
+    {
+      "id": "welos-concept-226",
+      "name": "S01 Cell busbar R4 C8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 2,
+        "depth": 2,
+        "height": 57
+      },
+      "transform": {
+        "position": [
+          -425,
+          344,
+          508
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#96afaf"
+    },
+    {
+      "id": "welos-concept-227",
+      "name": "S01 Aluminum edge rail -902",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 10,
+        "depth": 36,
+        "height": 328
+      },
+      "transform": {
+        "position": [
+          -902,
+          374,
+          400
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-228",
+      "name": "S01 Aluminum edge rail -378",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 10,
+        "depth": 36,
+        "height": 328
+      },
+      "transform": {
+        "position": [
+          -378,
+          374,
+          400
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-229",
+      "name": "S01 Aluminum end rail 231",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 530,
+        "depth": 36,
+        "height": 10
+      },
+      "transform": {
+        "position": [
+          -640,
+          374,
+          231
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-230",
+      "name": "S01 Aluminum end rail 569",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 530,
+        "depth": 36,
+        "height": 10
+      },
+      "transform": {
+        "position": [
+          -640,
+          374,
+          569
+        ],
+        "rotation": [
+          -0.25,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-231",
+      "name": "S01 Junction box",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 110,
+        "depth": 42,
+        "height": 55
+      },
+      "transform": {
+        "position": [
+          -640,
+          425,
+          400
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-232",
+      "name": "S01 Frame clamp -860",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 34,
+        "depth": 45,
+        "height": 12
+      },
+      "transform": {
+        "position": [
+          -860,
+          400,
+          235
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-233",
+      "name": "S01 Frame clamp -420",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 34,
+        "depth": 45,
+        "height": 12
+      },
+      "transform": {
+        "position": [
+          -420,
+          400,
+          235
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-234",
+      "name": "F01 Pipe flange -862",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 79,
+        "height": 23
+      },
+      "transform": {
+        "position": [
+          -862,
+          -390,
+          145
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-235",
+      "name": "F01 Inner flange -862",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 58,
+        "height": 25
+      },
+      "transform": {
+        "position": [
+          -874,
+          -390,
+          145
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#307ca9"
+    },
+    {
+      "id": "welos-concept-236",
+      "name": "F01 Pipe flange -438",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 79,
+        "height": 23
+      },
+      "transform": {
+        "position": [
+          -438,
+          -390,
+          145
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-237",
+      "name": "F01 Inner flange -438",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 58,
+        "height": 25
+      },
+      "transform": {
+        "position": [
+          -426,
+          -390,
+          145
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#307ca9"
+    },
+    {
+      "id": "welos-concept-238",
+      "name": "F01 Turbine access cover",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 87,
+        "height": 10
+      },
+      "transform": {
+        "position": [
+          -650,
+          -333,
+          165
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#abb7b2"
+    },
+    {
+      "id": "welos-concept-239",
+      "name": "F01 Turbine cover bolt 1",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -576,
+          -325,
+          165
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-240",
+      "name": "F01 Turbine cover bolt 2",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -590.1327424162539,
+          -325,
+          208.496108669643
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-241",
+      "name": "F01 Turbine cover bolt 3",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -627.1327424162539,
+          -325,
+          235.37818220584137
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-242",
+      "name": "F01 Turbine cover bolt 4",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -672.8672575837461,
+          -325,
+          235.37818220584137
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-243",
+      "name": "F01 Turbine cover bolt 5",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -709.8672575837461,
+          -325,
+          208.49610866964304
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-244",
+      "name": "F01 Turbine cover bolt 6",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -724,
+          -325,
+          165
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-245",
+      "name": "F01 Turbine cover bolt 7",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -709.8672575837461,
+          -325,
+          121.50389133035699
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-246",
+      "name": "F01 Turbine cover bolt 8",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -672.8672575837461,
+          -325,
+          94.62181779415864
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-247",
+      "name": "F01 Turbine cover bolt 9",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -627.1327424162539,
+          -325,
+          94.62181779415863
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-248",
+      "name": "F01 Turbine cover bolt 10",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 6
+      },
+      "transform": {
+        "position": [
+          -590.1327424162539,
+          -325,
+          121.50389133035696
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-249",
+      "name": "F01 Generator cooling fin 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 8,
+        "depth": 118,
+        "height": 101
+      },
+      "transform": {
+        "position": [
+          -707,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d6b6d"
+    },
+    {
+      "id": "welos-concept-250",
+      "name": "F01 Generator cooling fin 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 8,
+        "depth": 118,
+        "height": 101
+      },
+      "transform": {
+        "position": [
+          -691,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d6b6d"
+    },
+    {
+      "id": "welos-concept-251",
+      "name": "F01 Generator cooling fin 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 8,
+        "depth": 118,
+        "height": 101
+      },
+      "transform": {
+        "position": [
+          -675,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d6b6d"
+    },
+    {
+      "id": "welos-concept-252",
+      "name": "F01 Generator cooling fin 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 8,
+        "depth": 118,
+        "height": 101
+      },
+      "transform": {
+        "position": [
+          -659,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d6b6d"
+    },
+    {
+      "id": "welos-concept-253",
+      "name": "F01 Generator cooling fin 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 8,
+        "depth": 118,
+        "height": 101
+      },
+      "transform": {
+        "position": [
+          -643,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d6b6d"
+    },
+    {
+      "id": "welos-concept-254",
+      "name": "F01 Generator cooling fin 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 8,
+        "depth": 118,
+        "height": 101
+      },
+      "transform": {
+        "position": [
+          -627,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d6b6d"
+    },
+    {
+      "id": "welos-concept-255",
+      "name": "F01 Generator cooling fin 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 8,
+        "depth": 118,
+        "height": 101
+      },
+      "transform": {
+        "position": [
+          -611,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d6b6d"
+    },
+    {
+      "id": "welos-concept-256",
+      "name": "F01 Generator cooling fin 8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 8,
+        "depth": 118,
+        "height": 101
+      },
+      "transform": {
+        "position": [
+          -595,
+          -245,
+          170
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5d6b6d"
+    },
+    {
+      "id": "welos-concept-257",
+      "name": "F01 Generator terminal housing",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 70,
+        "depth": 65,
+        "height": 40
+      },
+      "transform": {
+        "position": [
+          -650,
+          -245,
+          241
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-258",
+      "name": "F01 Turbine shaft",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 18,
+        "height": 100
+      },
+      "transform": {
+        "position": [
+          -650,
+          -289,
+          165
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-259",
+      "name": "B01 Tank reinforcing band 55",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 134,
+        "height": 9
+      },
+      "transform": {
+        "position": [
+          610,
+          -390,
+          55
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-260",
+      "name": "B01 Tank reinforcing band 145",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 134,
+        "height": 9
+      },
+      "transform": {
+        "position": [
+          610,
+          -390,
+          145
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-261",
+      "name": "B01 Tank reinforcing band 245",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 134,
+        "height": 9
+      },
+      "transform": {
+        "position": [
+          610,
+          -390,
+          245
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-262",
+      "name": "B01 Inspection hatch",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 40,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          610,
+          -526,
+          134
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e8ebe5"
+    },
+    {
+      "id": "welos-concept-263",
+      "name": "B01 Hatch fastener",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 9,
+        "height": 10
+      },
+      "transform": {
+        "position": [
+          610,
+          -538,
+          134
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-264",
+      "name": "B01 Pressure gauge body",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 21,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          730,
+          -390,
+          288
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e8ebe5"
+    },
+    {
+      "id": "welos-concept-265",
+      "name": "B01 Pressure gauge dial",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 16,
+        "height": 3
+      },
+      "transform": {
+        "position": [
+          730,
+          -396,
+          288
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-266",
+      "name": "B01 Manual shutoff valve",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 35,
+        "depth": 44,
+        "height": 33
+      },
+      "transform": {
+        "position": [
+          730,
+          -390,
+          195
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-267",
+      "name": "B01 Genset cooling louver 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 6,
+        "height": 62
+      },
+      "transform": {
+        "position": [
+          745,
+          -460,
+          71
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-268",
+      "name": "B01 Genset cooling louver 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 6,
+        "height": 62
+      },
+      "transform": {
+        "position": [
+          764,
+          -460,
+          71
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-269",
+      "name": "B01 Genset cooling louver 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 6,
+        "height": 62
+      },
+      "transform": {
+        "position": [
+          783,
+          -460,
+          71
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-270",
+      "name": "B01 Genset cooling louver 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 6,
+        "height": 62
+      },
+      "transform": {
+        "position": [
+          802,
+          -460,
+          71
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-271",
+      "name": "B01 Genset cooling louver 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 6,
+        "height": 62
+      },
+      "transform": {
+        "position": [
+          821,
+          -460,
+          71
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-272",
+      "name": "B01 Genset cooling louver 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 6,
+        "height": 62
+      },
+      "transform": {
+        "position": [
+          840,
+          -460,
+          71
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-273",
+      "name": "B01 Genset cooling louver 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 7,
+        "depth": 6,
+        "height": 62
+      },
+      "transform": {
+        "position": [
+          859,
+          -460,
+          71
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-274",
+      "name": "B01 Generator exhaust",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 16,
+        "height": 110
+      },
+      "transform": {
+        "position": [
+          845,
+          -390,
+          176
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-275",
+      "name": "B01 Generator fuel valve",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 12,
+        "height": 37
+      },
+      "transform": {
+        "position": [
+          735,
+          -390,
+          70
+        ],
+        "rotation": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b87935"
+    },
+    {
+      "id": "welos-concept-276",
+      "name": "W01 Tower foundation flange",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 58,
+        "height": 17
+      },
+      "transform": {
+        "position": [
+          650,
+          390,
+          9
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-277",
+      "name": "W01 Tower collar 140",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 21,
+        "height": 12
+      },
+      "transform": {
+        "position": [
+          650,
+          390,
+          140
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-278",
+      "name": "W01 Tower collar 275",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 21,
+        "height": 12
+      },
+      "transform": {
+        "position": [
+          650,
+          390,
+          275
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-279",
+      "name": "W01 Tower collar 405",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 21,
+        "height": 12
+      },
+      "transform": {
+        "position": [
+          650,
+          390,
+          405
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-280",
+      "name": "W01 Nacelle vent 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 9,
+        "depth": 3,
+        "height": 27
+      },
+      "transform": {
+        "position": [
+          600,
+          347,
+          547
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#899792"
+    },
+    {
+      "id": "welos-concept-281",
+      "name": "W01 Nacelle vent 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 9,
+        "depth": 3,
+        "height": 27
+      },
+      "transform": {
+        "position": [
+          618,
+          347,
+          547
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#899792"
+    },
+    {
+      "id": "welos-concept-282",
+      "name": "W01 Nacelle vent 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 9,
+        "depth": 3,
+        "height": 27
+      },
+      "transform": {
+        "position": [
+          636,
+          347,
+          547
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#899792"
+    },
+    {
+      "id": "welos-concept-283",
+      "name": "W01 Nacelle vent 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 9,
+        "depth": 3,
+        "height": 27
+      },
+      "transform": {
+        "position": [
+          654,
+          347,
+          547
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#899792"
+    },
+    {
+      "id": "welos-concept-284",
+      "name": "W01 Nacelle vent 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 9,
+        "depth": 3,
+        "height": 27
+      },
+      "transform": {
+        "position": [
+          672,
+          347,
+          547
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#899792"
+    },
+    {
+      "id": "welos-concept-285",
+      "name": "W01 Nacelle vent 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 9,
+        "depth": 3,
+        "height": 27
+      },
+      "transform": {
+        "position": [
+          690,
+          347,
+          547
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#899792"
+    },
+    {
+      "id": "welos-concept-286",
+      "name": "W01 Rotor nose cone",
+      "kind": "primitive",
+      "type": "sphere",
+      "params": {
+        "radius": 29
+      },
+      "transform": {
+        "position": [
+          650,
+          306,
+          545
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#e8ebe5"
+    },
+    {
+      "id": "welos-concept-287",
+      "name": "W01 Anemometer mast",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 4,
+        "height": 44
+      },
+      "transform": {
+        "position": [
+          705,
+          390,
+          601
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-288",
+      "name": "W01 Anemometer sensor",
+      "kind": "primitive",
+      "type": "sphere",
+      "params": {
+        "radius": 11
+      },
+      "transform": {
+        "position": [
+          705,
+          390,
+          630
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-289",
+      "name": "W01 Nacelle seam 575",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 82,
+        "height": 67
+      },
+      "transform": {
+        "position": [
+          575,
+          390,
+          545
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-290",
+      "name": "W01 Nacelle seam 725",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 4,
+        "depth": 82,
+        "height": 67
+      },
+      "transform": {
+        "position": [
+          725,
+          390,
+          545
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    }
+  ]
+}
