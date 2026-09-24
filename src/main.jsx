@@ -7,7 +7,7 @@ import "./style.css";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
-const SEQUENCE_FRAMES = 113;
+const SEQUENCE_FRAMES = 145;
 
 const stats = [
   { value: "2,285", unit: "kWh/m²/yr", label: "Approx. annual GHI used in the project model" },
@@ -106,7 +106,7 @@ function ClimateSequence() {
       const scale = Math.max(width / image.naturalWidth, height / image.naturalHeight);
       const renderWidth = image.naturalWidth * scale;
       const renderHeight = image.naturalHeight * scale;
-      context.fillStyle = "#eef2ef";
+      context.fillStyle = "#020202";
       context.fillRect(0, 0, width, height);
       context.drawImage(image, (width - renderWidth) / 2, (height - renderHeight) / 2, renderWidth, renderHeight);
     };
@@ -167,6 +167,8 @@ function ClimateSequence() {
 
     if (reduceMotion) return;
 
+    gsap.set(".sequence-brand", { xPercent: -50, yPercent: -50, scale: 0.84 });
+
     const timeline = gsap.timeline({
       scrollTrigger: {
         trigger: sectionRef.current,
@@ -185,8 +187,26 @@ function ClimateSequence() {
         onUpdate: () => canvas?.drawSequenceFrame?.(Math.round(frame.value)),
       }, 0)
       .to(".sequence-progress-fill", { scaleX: 1, duration: 1, ease: "none" }, 0)
-      .to(".sequence-scroll-orbit", { rotation: 270, duration: 1, ease: "none" }, 0)
-      .to(".sequence-scroll-meter-fill", { scaleY: 1, duration: 1, ease: "none" }, 0);
+      .to(".sequence-scroll-meter-fill", { scaleY: 1, duration: 1, ease: "none" }, 0)
+      .to(".sequence-scroll-cue", { autoAlpha: 0, y: -14, duration: 0.16, ease: "power2.out" }, 0.07)
+      .to(".sequence-brand", { autoAlpha: 1, scale: 1, duration: 0.14, ease: "power2.out" }, 0.38)
+      .to(".sequence-brand", {
+        x: () => {
+          const viewportWidth = document.documentElement.clientWidth;
+          const width = viewportWidth <= 650 ? 78 : 96;
+          const left = viewportWidth <= 650 ? 14 : Math.min(80, Math.max(24, viewportWidth * 0.05));
+          return left + (width / 2) - (viewportWidth / 2);
+        },
+        y: () => {
+          const width = document.documentElement.clientWidth <= 650 ? 78 : 96;
+          const top = document.documentElement.clientWidth <= 650 ? 14 : 18;
+          return top + (width / 2) - (window.innerHeight / 2);
+        },
+        width: () => document.documentElement.clientWidth <= 650 ? 78 : 96,
+        borderRadius: 12,
+        duration: 0.32,
+        ease: "power2.inOut",
+      }, 0.62);
   }, { scope: sectionRef });
 
   return (
@@ -205,11 +225,9 @@ function ClimateSequence() {
             <img src="/welos-brand-transparent.png" alt="WELOS" />
           </div>
           <div className="sequence-scroll-cue" aria-hidden="true">
-            <span className="sequence-scroll-orbit">
-              <span className="sequence-scroll-core"><i /><i /><i /></span>
-            </span>
-            <span className="sequence-scroll-copy"><b>Scroll</b><small>to explore</small></span>
+            <span className="sequence-scroll-copy">Scroll</span>
             <span className="sequence-scroll-meter"><i className="sequence-scroll-meter-fill" /></span>
+            <span className="sequence-scroll-arrow">↓</span>
           </div>
           <div className="sequence-chrome" aria-hidden="true">
             <span>WELOS / FIELD SEQUENCE</span>
@@ -253,7 +271,7 @@ function App() {
     const onScroll = () => {
       const sequence = document.querySelector(".climate-sequence");
       const sequenceEnd = Math.max(0, (sequence?.offsetHeight || 0) - window.innerHeight);
-      const hasPassedSequence = window.scrollY >= sequenceEnd - 2;
+      const hasPassedSequence = window.scrollY >= Math.max(4, sequenceEnd - 2);
       setScrolled(hasPassedSequence);
       setShowNav(hasPassedSequence);
     };
@@ -315,7 +333,7 @@ function App() {
           <div className="hero-visual">
             <div className="visual-topline"><span>PROTOTYPE / WELOS-01</span><span>LIVE CONCEPT</span></div>
             <div className="image-frame">
-              <img src="/sequence/frame_001.jpg" alt="WELOS integrated solar, wind and rainwater harvesting prototype" />
+              <img src="/welos-system-hero.jpg" alt="WELOS integrated solar, wind and rainwater harvesting prototype" />
               <div className="scanline" />
               <div className="visual-tag tag-one"><span className="tag-dot" /> ENERGY + WATER</div>
               <div className="visual-tag tag-two">URBAN MICRO-GRID / 001</div>
