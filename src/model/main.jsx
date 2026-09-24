@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { ArrowLeft, Box, ChevronRight, Crosshair, Layers3, RotateCcw } from "lucide-react";
 import { partById, parts, systems } from "./parts.js";
+import { softwareLayers } from "./software.js";
 import { createWelosScene } from "./scene.js";
 import "./model.css";
 
@@ -15,8 +16,11 @@ function ModelApp() {
   const [view, setView] = useState("overview");
   const [selectedId, setSelectedId] = useState(DEFAULT_PART);
   const [separation, setSeparation] = useState(0);
+  const [inspectorMode, setInspectorMode] = useState("hardware");
+  const [softwareId, setSoftwareId] = useState("runtime");
 
   const selected = partById[selectedId] || partById[DEFAULT_PART];
+  const selectedLayer = softwareLayers.find((layer) => layer.id === softwareId) || softwareLayers[0];
   const visibleParts = useMemo(() => {
     if (view === "overview" || view === "controller") return parts.filter((part) => part.system === "controller");
     return parts.filter((part) => part.system === view);
@@ -26,7 +30,15 @@ function ModelApp() {
     if (!viewportRef.current) return undefined;
     sceneRef.current = createWelosScene(viewportRef.current, {
       onReady: () => setReady(true),
-      onSelect: (id) => setSelectedId(id),
+      onSelect: (id) => {
+        setSelectedId(id);
+        setInspectorMode("hardware");
+        const system = partById[id]?.system;
+        if (system) {
+          setView(system);
+          sceneRef.current?.setView(system);
+        }
+      },
       onError: () => setError("This browser could not start the 3D renderer."),
     });
     sceneRef.current?.selectPart(DEFAULT_PART);
@@ -41,22 +53,13 @@ function ModelApp() {
   function chooseSystem(id) {
     setView(id);
     sceneRef.current?.setView(id);
-    if (id !== "controller") {
-      setSeparation(0);
-      const first = parts.find((part) => part.system === id);
-      if (first) choosePart(first.id);
-    } else {
-      choosePart(DEFAULT_PART);
-    }
+    const first = parts.find((part) => part.system === id);
+    choosePart(first?.id || DEFAULT_PART);
   }
 
   function updateSeparation(value) {
     const next = Number(value);
     setSeparation(next);
-    if (view !== "controller") {
-      setView("controller");
-      sceneRef.current?.setView("controller");
-    }
     sceneRef.current?.setExploded(next / 100);
   }
 
@@ -80,14 +83,14 @@ function ModelApp() {
         <aside className="system-rail" aria-label="Model systems">
           <div className="rail-intro">
             <span className="eyebrow">Inside the machine</span>
-            <h1>One controller.<br />Four inputs.</h1>
-            <p>Inspect the hardware architecture that measures, protects and routes every WELOS energy source.</p>
+            <h1>One machine.<br />Five systems.</h1>
+            <p>A compact rooftop appliance: one canopy, one chassis and connected energy and water systems.</p>
           </div>
           <nav className="system-list">
             {systems.map((system, index) => (
               <button className={view === system.id ? "system-button active" : "system-button"} key={system.id} onClick={() => chooseSystem(system.id)} aria-pressed={view === system.id}>
                 <span className="system-index">{String(index + 1).padStart(2, "0")}</span>
-                <span><strong>{system.name}</strong><small>{system.label}</small></span>
+                <span><strong>{system.name}</strong><small>{system.short}</small></span>
                 <ChevronRight size={15} aria-hidden="true" />
               </button>
             ))}
@@ -99,12 +102,13 @@ function ModelApp() {
         </aside>
 
         <section className="viewport-panel" aria-label="Interactive WELOS 3D model">
-          <div className="viewport-meta"><span><Crosshair size={14} /> Drag to orbit</span><span>Scroll to zoom</span></div>
+          <div className="viewport-meta"><span><Crosshair size={14} /> Drag to orbit</span><span>Scroll to zoom · click a part</span></div>
+          <div className="view-caption"><span>{systems.find((system) => system.id === view)?.code} / {systems.find((system) => system.id === view)?.name}</span><p>{systems.find((system) => system.id === view)?.summary}</p></div>
           <div ref={viewportRef} className="model-viewport" />
           {!ready && !error && <div className="model-loading" role="status"><div className="loading-mark"><span /><span /><span /></div><p>Assembling system model</p></div>}
           {error && <div className="model-error" role="alert"><Box size={30} /><strong>3D view unavailable</strong><p>{error} The component index remains available for inspection.</p></div>}
           <div className="view-controls">
-            <label htmlFor="separation"><Layers3 size={15} aria-hidden="true" />Controller separation</label>
+            <label htmlFor="separation"><Layers3 size={15} aria-hidden="true" />System separation</label>
             <input id="separation" type="range" min="0" max="100" step="1" value={separation} onChange={(event) => updateSeparation(event.target.value)} />
             <output htmlFor="separation">{separation === 0 ? "Assembled" : `${separation}%`}</output>
             <button onClick={resetScene} aria-label="Reset model view"><RotateCcw size={15} /></button>
@@ -112,28 +116,60 @@ function ModelApp() {
         </section>
 
         <aside className="inspector" aria-live="polite">
-          <div className="inspector-head"><span>Component index</span><span>{String(visibleParts.length).padStart(2, "0")}</span></div>
-          <div className="part-tabs" role="list" aria-label="Visible components">
-            {visibleParts.map((part) => (
-              <button key={part.id} className={part.id === selectedId ? "part-tab active" : "part-tab"} onClick={() => choosePart(part.id)} role="listitem"><span>{part.code}</span>{part.name}</button>
-            ))}
+          <div className="inspector-switch" role="group" aria-label="Architecture breakdown">
+            <button className={inspectorMode === "hardware" ? "active" : ""} aria-pressed={inspectorMode === "hardware"} onClick={() => setInspectorMode("hardware")}>Hardware</button>
+            <button className={inspectorMode === "software" ? "active" : ""} aria-pressed={inspectorMode === "software"} onClick={() => setInspectorMode("software")}>Software</button>
           </div>
-          <article className="part-detail">
-            <div className="detail-code">{selected.code} / {selected.category}</div>
-            <h2>{selected.name}</h2>
-            <p className="detail-role">{selected.role}</p>
-            <dl>
-              <div><dt>What the model shows</dt><dd>{selected.evidence}</dd></div>
-              <div><dt>Validation</dt><dd>{selected.status}</dd></div>
-            </dl>
-          </article>
-          <div className="signal-legend" aria-label="System signal legend">
-            <span><i className="sun" /> Sun</span><span><i className="flow" /> Flow</span><span><i className="farm" /> Farm</span><span><i className="wind" /> Wind</span>
-          </div>
+          {inspectorMode === "hardware" ? (
+            <>
+              <div className="inspector-head"><span>Component index</span><span>{String(visibleParts.length).padStart(2, "0")}</span></div>
+              <div className="part-tabs" aria-label="Visible components">
+                {visibleParts.map((part) => (
+                  <button key={part.id} className={part.id === selectedId ? "part-tab active" : "part-tab"} onClick={() => choosePart(part.id)}><span>{part.code}</span>{part.name}</button>
+                ))}
+              </div>
+              <article className="part-detail">
+                <div className="detail-code">{selected.code} / {selected.category}</div>
+                <h2>{selected.name}</h2>
+                <p className="detail-role">{selected.role}</p>
+                <dl>
+                  <div><dt>What the model shows</dt><dd>{selected.evidence}</dd></div>
+                  <div><dt>Validation</dt><dd>{selected.status}</dd></div>
+                </dl>
+              </article>
+              <div className="signal-legend" aria-label="System signal legend">
+                <span><i className="sun" /> Solar</span><span><i className="wind" /> Wind</span><span><i className="water" /> Water</span><span><i className="storage" /> Storage</span>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="inspector-head"><span>WELOS OS stack</span><span>{String(softwareLayers.length).padStart(2, "0")}</span></div>
+              <div className="part-tabs" aria-label="Software layers">
+                {softwareLayers.map((layer) => (
+                  <button key={layer.id} className={layer.id === softwareId ? "part-tab active" : "part-tab"} onClick={() => setSoftwareId(layer.id)}><span>{layer.code}</span>{layer.name}</button>
+                ))}
+              </div>
+              <article className="part-detail">
+                <div className="detail-code">{selectedLayer.code} / {selectedLayer.category}</div>
+                <h2>{selectedLayer.name}</h2>
+                <p className="detail-role">{selectedLayer.role}</p>
+                <dl>
+                  <div><dt>Implementation</dt><dd className="implementation-path">{selectedLayer.implementation}</dd></div>
+                  <div><dt>Operating boundary</dt><dd>{selectedLayer.boundary}</dd></div>
+                </dl>
+              </article>
+              <div className="software-footer">
+                <div className="software-flow" aria-label="Software control flow">Sense <span>→</span> Decide <span>→</span> Act <span>→</span> Report</div>
+                <a className="simulator-link" href="/control.html">Open live OS simulator <ChevronRight size={15} aria-hidden="true" /></a>
+              </div>
+            </>
+          )}
         </aside>
       </main>
     </div>
   );
 }
 
-createRoot(document.getElementById("model-root")).render(<ModelApp />);
+const appRoot = createRoot(document.getElementById("model-root"));
+appRoot.render(<ModelApp />);
+if (import.meta.hot) import.meta.hot.dispose(() => appRoot.unmount());
