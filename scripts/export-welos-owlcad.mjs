@@ -118,6 +118,29 @@ for (let i = 0; i < 4; i += 1) {
 for (let i = 0; i < 8; i += 1) {
   add(`C08 Fan guard spoke ${i + 1}`, "box", [4, 4, 68], [130, -98, 380], steel, [0, i * Math.PI / 4, 0]);
 }
+for (const x of [-164, 164]) {
+  add(`C02 Slotted cable duct spine ${x}`, "box", [18, 28, 345], [x, -49, 219], "#596967");
+  for (let i = 0; i < 12; i += 1) {
+    add(`C02 Cable duct slot ${x} ${i + 1}`, "box", [20, 3, 8], [x, -66, 67 + i * 27], black);
+  }
+}
+for (const z of [58, 268]) {
+  add(`C02 Horizontal cable duct ${z}`, "box", [315, 28, 18], [0, -49, z], "#596967");
+}
+const wireColors = ["#b64e3e", "#2f759a", "#222c2e", "#be9e46", "#5f9b68"];
+for (let i = 0; i < 5; i += 1) {
+  const x = -120 + i * 60;
+  add(`C09 Breaker output lead ${i + 1}`, "cylinder", [3, 52], [x, -98, 136], wireColors[i]);
+  add(`C09 Breaker input lead ${i + 1}`, "cylinder", [3, 35], [x, -98, 269], wireColors[i]);
+}
+for (let i = 0; i < 4; i += 1) {
+  add(`C09 Field terminal lead ${i + 1}`, "cylinder", [3, 38], [45 + i * 38, -90, 63], wireColors[i]);
+}
+for (const x of [-140, 140]) {
+  for (const z of [24, 415]) {
+    add(`C01 Cabinet captive fastener ${x} ${z}`, "cylinder", [5, 5], [x, -94, z], steel, [Math.PI / 2, 0, 0]);
+  }
+}
 
 // PV: cell matrix, busbars, side rails, clamps and junction box.
 for (let row = 0; row < 4; row += 1) {

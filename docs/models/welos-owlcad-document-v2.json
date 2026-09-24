@@ -4663,6 +4663,1322 @@
     },
     {
       "id": "welos-concept-163",
+      "name": "C02 Slotted cable duct spine -164",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 18,
+        "depth": 28,
+        "height": 345
+      },
+      "transform": {
+        "position": [
+          -164,
+          -49,
+          219
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596967"
+    },
+    {
+      "id": "welos-concept-164",
+      "name": "C02 Cable duct slot -164 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          67
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-165",
+      "name": "C02 Cable duct slot -164 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          94
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-166",
+      "name": "C02 Cable duct slot -164 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          121
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-167",
+      "name": "C02 Cable duct slot -164 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          148
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-168",
+      "name": "C02 Cable duct slot -164 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          175
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-169",
+      "name": "C02 Cable duct slot -164 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          202
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-170",
+      "name": "C02 Cable duct slot -164 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          229
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-171",
+      "name": "C02 Cable duct slot -164 8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          256
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-172",
+      "name": "C02 Cable duct slot -164 9",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          283
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-173",
+      "name": "C02 Cable duct slot -164 10",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          310
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-174",
+      "name": "C02 Cable duct slot -164 11",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          337
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-175",
+      "name": "C02 Cable duct slot -164 12",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          -164,
+          -66,
+          364
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-176",
+      "name": "C02 Slotted cable duct spine 164",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 18,
+        "depth": 28,
+        "height": 345
+      },
+      "transform": {
+        "position": [
+          164,
+          -49,
+          219
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596967"
+    },
+    {
+      "id": "welos-concept-177",
+      "name": "C02 Cable duct slot 164 1",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          67
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-178",
+      "name": "C02 Cable duct slot 164 2",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          94
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-179",
+      "name": "C02 Cable duct slot 164 3",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          121
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-180",
+      "name": "C02 Cable duct slot 164 4",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          148
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-181",
+      "name": "C02 Cable duct slot 164 5",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          175
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-182",
+      "name": "C02 Cable duct slot 164 6",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          202
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-183",
+      "name": "C02 Cable duct slot 164 7",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          229
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-184",
+      "name": "C02 Cable duct slot 164 8",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          256
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-185",
+      "name": "C02 Cable duct slot 164 9",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          283
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-186",
+      "name": "C02 Cable duct slot 164 10",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          310
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-187",
+      "name": "C02 Cable duct slot 164 11",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          337
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-188",
+      "name": "C02 Cable duct slot 164 12",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 20,
+        "depth": 3,
+        "height": 8
+      },
+      "transform": {
+        "position": [
+          164,
+          -66,
+          364
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#1a2527"
+    },
+    {
+      "id": "welos-concept-189",
+      "name": "C02 Horizontal cable duct 58",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 315,
+        "depth": 28,
+        "height": 18
+      },
+      "transform": {
+        "position": [
+          0,
+          -49,
+          58
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596967"
+    },
+    {
+      "id": "welos-concept-190",
+      "name": "C02 Horizontal cable duct 268",
+      "kind": "primitive",
+      "type": "box",
+      "params": {
+        "width": 315,
+        "depth": 28,
+        "height": 18
+      },
+      "transform": {
+        "position": [
+          0,
+          -49,
+          268
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#596967"
+    },
+    {
+      "id": "welos-concept-191",
+      "name": "C09 Breaker output lead 1",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 52
+      },
+      "transform": {
+        "position": [
+          -120,
+          -98,
+          136
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b64e3e"
+    },
+    {
+      "id": "welos-concept-192",
+      "name": "C09 Breaker input lead 1",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 35
+      },
+      "transform": {
+        "position": [
+          -120,
+          -98,
+          269
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b64e3e"
+    },
+    {
+      "id": "welos-concept-193",
+      "name": "C09 Breaker output lead 2",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 52
+      },
+      "transform": {
+        "position": [
+          -60,
+          -98,
+          136
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#2f759a"
+    },
+    {
+      "id": "welos-concept-194",
+      "name": "C09 Breaker input lead 2",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 35
+      },
+      "transform": {
+        "position": [
+          -60,
+          -98,
+          269
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#2f759a"
+    },
+    {
+      "id": "welos-concept-195",
+      "name": "C09 Breaker output lead 3",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 52
+      },
+      "transform": {
+        "position": [
+          0,
+          -98,
+          136
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#222c2e"
+    },
+    {
+      "id": "welos-concept-196",
+      "name": "C09 Breaker input lead 3",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 35
+      },
+      "transform": {
+        "position": [
+          0,
+          -98,
+          269
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#222c2e"
+    },
+    {
+      "id": "welos-concept-197",
+      "name": "C09 Breaker output lead 4",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 52
+      },
+      "transform": {
+        "position": [
+          60,
+          -98,
+          136
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#be9e46"
+    },
+    {
+      "id": "welos-concept-198",
+      "name": "C09 Breaker input lead 4",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 35
+      },
+      "transform": {
+        "position": [
+          60,
+          -98,
+          269
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#be9e46"
+    },
+    {
+      "id": "welos-concept-199",
+      "name": "C09 Breaker output lead 5",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 52
+      },
+      "transform": {
+        "position": [
+          120,
+          -98,
+          136
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5f9b68"
+    },
+    {
+      "id": "welos-concept-200",
+      "name": "C09 Breaker input lead 5",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 35
+      },
+      "transform": {
+        "position": [
+          120,
+          -98,
+          269
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#5f9b68"
+    },
+    {
+      "id": "welos-concept-201",
+      "name": "C09 Field terminal lead 1",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 38
+      },
+      "transform": {
+        "position": [
+          45,
+          -90,
+          63
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#b64e3e"
+    },
+    {
+      "id": "welos-concept-202",
+      "name": "C09 Field terminal lead 2",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 38
+      },
+      "transform": {
+        "position": [
+          83,
+          -90,
+          63
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#2f759a"
+    },
+    {
+      "id": "welos-concept-203",
+      "name": "C09 Field terminal lead 3",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 38
+      },
+      "transform": {
+        "position": [
+          121,
+          -90,
+          63
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#222c2e"
+    },
+    {
+      "id": "welos-concept-204",
+      "name": "C09 Field terminal lead 4",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 3,
+        "height": 38
+      },
+      "transform": {
+        "position": [
+          159,
+          -90,
+          63
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#be9e46"
+    },
+    {
+      "id": "welos-concept-205",
+      "name": "C01 Cabinet captive fastener -140 24",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          -140,
+          -94,
+          24
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-206",
+      "name": "C01 Cabinet captive fastener -140 415",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          -140,
+          -94,
+          415
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-207",
+      "name": "C01 Cabinet captive fastener 140 24",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          140,
+          -94,
+          24
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-208",
+      "name": "C01 Cabinet captive fastener 140 415",
+      "kind": "primitive",
+      "type": "cylinder",
+      "params": {
+        "radius": 5,
+        "height": 5
+      },
+      "transform": {
+        "position": [
+          140,
+          -94,
+          415
+        ],
+        "rotation": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "color": "#8e9b98"
+    },
+    {
+      "id": "welos-concept-209",
       "name": "S01 PV glass cell R1 C1",
       "kind": "primitive",
       "type": "box",
@@ -4691,7 +6007,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-164",
+      "id": "welos-concept-210",
       "name": "S01 Cell busbar R1 C1",
       "kind": "primitive",
       "type": "box",
@@ -4720,7 +6036,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-165",
+      "id": "welos-concept-211",
       "name": "S01 PV glass cell R1 C2",
       "kind": "primitive",
       "type": "box",
@@ -4749,7 +6065,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-166",
+      "id": "welos-concept-212",
       "name": "S01 Cell busbar R1 C2",
       "kind": "primitive",
       "type": "box",
@@ -4778,7 +6094,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-167",
+      "id": "welos-concept-213",
       "name": "S01 PV glass cell R1 C3",
       "kind": "primitive",
       "type": "box",
@@ -4807,7 +6123,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-168",
+      "id": "welos-concept-214",
       "name": "S01 Cell busbar R1 C3",
       "kind": "primitive",
       "type": "box",
@@ -4836,7 +6152,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-169",
+      "id": "welos-concept-215",
       "name": "S01 PV glass cell R1 C4",
       "kind": "primitive",
       "type": "box",
@@ -4865,7 +6181,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-170",
+      "id": "welos-concept-216",
       "name": "S01 Cell busbar R1 C4",
       "kind": "primitive",
       "type": "box",
@@ -4894,7 +6210,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-171",
+      "id": "welos-concept-217",
       "name": "S01 PV glass cell R1 C5",
       "kind": "primitive",
       "type": "box",
@@ -4923,7 +6239,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-172",
+      "id": "welos-concept-218",
       "name": "S01 Cell busbar R1 C5",
       "kind": "primitive",
       "type": "box",
@@ -4952,7 +6268,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-173",
+      "id": "welos-concept-219",
       "name": "S01 PV glass cell R1 C6",
       "kind": "primitive",
       "type": "box",
@@ -4981,7 +6297,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-174",
+      "id": "welos-concept-220",
       "name": "S01 Cell busbar R1 C6",
       "kind": "primitive",
       "type": "box",
@@ -5010,7 +6326,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-175",
+      "id": "welos-concept-221",
       "name": "S01 PV glass cell R1 C7",
       "kind": "primitive",
       "type": "box",
@@ -5039,7 +6355,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-176",
+      "id": "welos-concept-222",
       "name": "S01 Cell busbar R1 C7",
       "kind": "primitive",
       "type": "box",
@@ -5068,7 +6384,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-177",
+      "id": "welos-concept-223",
       "name": "S01 PV glass cell R1 C8",
       "kind": "primitive",
       "type": "box",
@@ -5097,7 +6413,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-178",
+      "id": "welos-concept-224",
       "name": "S01 Cell busbar R1 C8",
       "kind": "primitive",
       "type": "box",
@@ -5126,7 +6442,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-179",
+      "id": "welos-concept-225",
       "name": "S01 PV glass cell R2 C1",
       "kind": "primitive",
       "type": "box",
@@ -5155,7 +6471,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-180",
+      "id": "welos-concept-226",
       "name": "S01 Cell busbar R2 C1",
       "kind": "primitive",
       "type": "box",
@@ -5184,7 +6500,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-181",
+      "id": "welos-concept-227",
       "name": "S01 PV glass cell R2 C2",
       "kind": "primitive",
       "type": "box",
@@ -5213,7 +6529,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-182",
+      "id": "welos-concept-228",
       "name": "S01 Cell busbar R2 C2",
       "kind": "primitive",
       "type": "box",
@@ -5242,7 +6558,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-183",
+      "id": "welos-concept-229",
       "name": "S01 PV glass cell R2 C3",
       "kind": "primitive",
       "type": "box",
@@ -5271,7 +6587,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-184",
+      "id": "welos-concept-230",
       "name": "S01 Cell busbar R2 C3",
       "kind": "primitive",
       "type": "box",
@@ -5300,7 +6616,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-185",
+      "id": "welos-concept-231",
       "name": "S01 PV glass cell R2 C4",
       "kind": "primitive",
       "type": "box",
@@ -5329,7 +6645,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-186",
+      "id": "welos-concept-232",
       "name": "S01 Cell busbar R2 C4",
       "kind": "primitive",
       "type": "box",
@@ -5358,7 +6674,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-187",
+      "id": "welos-concept-233",
       "name": "S01 PV glass cell R2 C5",
       "kind": "primitive",
       "type": "box",
@@ -5387,7 +6703,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-188",
+      "id": "welos-concept-234",
       "name": "S01 Cell busbar R2 C5",
       "kind": "primitive",
       "type": "box",
@@ -5416,7 +6732,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-189",
+      "id": "welos-concept-235",
       "name": "S01 PV glass cell R2 C6",
       "kind": "primitive",
       "type": "box",
@@ -5445,7 +6761,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-190",
+      "id": "welos-concept-236",
       "name": "S01 Cell busbar R2 C6",
       "kind": "primitive",
       "type": "box",
@@ -5474,7 +6790,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-191",
+      "id": "welos-concept-237",
       "name": "S01 PV glass cell R2 C7",
       "kind": "primitive",
       "type": "box",
@@ -5503,7 +6819,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-192",
+      "id": "welos-concept-238",
       "name": "S01 Cell busbar R2 C7",
       "kind": "primitive",
       "type": "box",
@@ -5532,7 +6848,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-193",
+      "id": "welos-concept-239",
       "name": "S01 PV glass cell R2 C8",
       "kind": "primitive",
       "type": "box",
@@ -5561,7 +6877,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-194",
+      "id": "welos-concept-240",
       "name": "S01 Cell busbar R2 C8",
       "kind": "primitive",
       "type": "box",
@@ -5590,7 +6906,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-195",
+      "id": "welos-concept-241",
       "name": "S01 PV glass cell R3 C1",
       "kind": "primitive",
       "type": "box",
@@ -5619,7 +6935,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-196",
+      "id": "welos-concept-242",
       "name": "S01 Cell busbar R3 C1",
       "kind": "primitive",
       "type": "box",
@@ -5648,7 +6964,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-197",
+      "id": "welos-concept-243",
       "name": "S01 PV glass cell R3 C2",
       "kind": "primitive",
       "type": "box",
@@ -5677,7 +6993,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-198",
+      "id": "welos-concept-244",
       "name": "S01 Cell busbar R3 C2",
       "kind": "primitive",
       "type": "box",
@@ -5706,7 +7022,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-199",
+      "id": "welos-concept-245",
       "name": "S01 PV glass cell R3 C3",
       "kind": "primitive",
       "type": "box",
@@ -5735,7 +7051,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-200",
+      "id": "welos-concept-246",
       "name": "S01 Cell busbar R3 C3",
       "kind": "primitive",
       "type": "box",
@@ -5764,7 +7080,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-201",
+      "id": "welos-concept-247",
       "name": "S01 PV glass cell R3 C4",
       "kind": "primitive",
       "type": "box",
@@ -5793,7 +7109,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-202",
+      "id": "welos-concept-248",
       "name": "S01 Cell busbar R3 C4",
       "kind": "primitive",
       "type": "box",
@@ -5822,7 +7138,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-203",
+      "id": "welos-concept-249",
       "name": "S01 PV glass cell R3 C5",
       "kind": "primitive",
       "type": "box",
@@ -5851,7 +7167,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-204",
+      "id": "welos-concept-250",
       "name": "S01 Cell busbar R3 C5",
       "kind": "primitive",
       "type": "box",
@@ -5880,7 +7196,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-205",
+      "id": "welos-concept-251",
       "name": "S01 PV glass cell R3 C6",
       "kind": "primitive",
       "type": "box",
@@ -5909,7 +7225,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-206",
+      "id": "welos-concept-252",
       "name": "S01 Cell busbar R3 C6",
       "kind": "primitive",
       "type": "box",
@@ -5938,7 +7254,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-207",
+      "id": "welos-concept-253",
       "name": "S01 PV glass cell R3 C7",
       "kind": "primitive",
       "type": "box",
@@ -5967,7 +7283,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-208",
+      "id": "welos-concept-254",
       "name": "S01 Cell busbar R3 C7",
       "kind": "primitive",
       "type": "box",
@@ -5996,7 +7312,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-209",
+      "id": "welos-concept-255",
       "name": "S01 PV glass cell R3 C8",
       "kind": "primitive",
       "type": "box",
@@ -6025,7 +7341,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-210",
+      "id": "welos-concept-256",
       "name": "S01 Cell busbar R3 C8",
       "kind": "primitive",
       "type": "box",
@@ -6054,7 +7370,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-211",
+      "id": "welos-concept-257",
       "name": "S01 PV glass cell R4 C1",
       "kind": "primitive",
       "type": "box",
@@ -6083,7 +7399,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-212",
+      "id": "welos-concept-258",
       "name": "S01 Cell busbar R4 C1",
       "kind": "primitive",
       "type": "box",
@@ -6112,7 +7428,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-213",
+      "id": "welos-concept-259",
       "name": "S01 PV glass cell R4 C2",
       "kind": "primitive",
       "type": "box",
@@ -6141,7 +7457,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-214",
+      "id": "welos-concept-260",
       "name": "S01 Cell busbar R4 C2",
       "kind": "primitive",
       "type": "box",
@@ -6170,7 +7486,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-215",
+      "id": "welos-concept-261",
       "name": "S01 PV glass cell R4 C3",
       "kind": "primitive",
       "type": "box",
@@ -6199,7 +7515,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-216",
+      "id": "welos-concept-262",
       "name": "S01 Cell busbar R4 C3",
       "kind": "primitive",
       "type": "box",
@@ -6228,7 +7544,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-217",
+      "id": "welos-concept-263",
       "name": "S01 PV glass cell R4 C4",
       "kind": "primitive",
       "type": "box",
@@ -6257,7 +7573,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-218",
+      "id": "welos-concept-264",
       "name": "S01 Cell busbar R4 C4",
       "kind": "primitive",
       "type": "box",
@@ -6286,7 +7602,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-219",
+      "id": "welos-concept-265",
       "name": "S01 PV glass cell R4 C5",
       "kind": "primitive",
       "type": "box",
@@ -6315,7 +7631,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-220",
+      "id": "welos-concept-266",
       "name": "S01 Cell busbar R4 C5",
       "kind": "primitive",
       "type": "box",
@@ -6344,7 +7660,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-221",
+      "id": "welos-concept-267",
       "name": "S01 PV glass cell R4 C6",
       "kind": "primitive",
       "type": "box",
@@ -6373,7 +7689,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-222",
+      "id": "welos-concept-268",
       "name": "S01 Cell busbar R4 C6",
       "kind": "primitive",
       "type": "box",
@@ -6402,7 +7718,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-223",
+      "id": "welos-concept-269",
       "name": "S01 PV glass cell R4 C7",
       "kind": "primitive",
       "type": "box",
@@ -6431,7 +7747,7 @@
       "color": "#20556f"
     },
     {
-      "id": "welos-concept-224",
+      "id": "welos-concept-270",
       "name": "S01 Cell busbar R4 C7",
       "kind": "primitive",
       "type": "box",
@@ -6460,7 +7776,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-225",
+      "id": "welos-concept-271",
       "name": "S01 PV glass cell R4 C8",
       "kind": "primitive",
       "type": "box",
@@ -6489,7 +7805,7 @@
       "color": "#174c65"
     },
     {
-      "id": "welos-concept-226",
+      "id": "welos-concept-272",
       "name": "S01 Cell busbar R4 C8",
       "kind": "primitive",
       "type": "box",
@@ -6518,7 +7834,7 @@
       "color": "#96afaf"
     },
     {
-      "id": "welos-concept-227",
+      "id": "welos-concept-273",
       "name": "S01 Aluminum edge rail -902",
       "kind": "primitive",
       "type": "box",
@@ -6547,7 +7863,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-228",
+      "id": "welos-concept-274",
       "name": "S01 Aluminum edge rail -378",
       "kind": "primitive",
       "type": "box",
@@ -6576,7 +7892,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-229",
+      "id": "welos-concept-275",
       "name": "S01 Aluminum end rail 231",
       "kind": "primitive",
       "type": "box",
@@ -6605,7 +7921,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-230",
+      "id": "welos-concept-276",
       "name": "S01 Aluminum end rail 569",
       "kind": "primitive",
       "type": "box",
@@ -6634,7 +7950,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-231",
+      "id": "welos-concept-277",
       "name": "S01 Junction box",
       "kind": "primitive",
       "type": "box",
@@ -6663,7 +7979,7 @@
       "color": "#1a2527"
     },
     {
-      "id": "welos-concept-232",
+      "id": "welos-concept-278",
       "name": "S01 Frame clamp -860",
       "kind": "primitive",
       "type": "box",
@@ -6692,7 +8008,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-233",
+      "id": "welos-concept-279",
       "name": "S01 Frame clamp -420",
       "kind": "primitive",
       "type": "box",
@@ -6721,7 +8037,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-234",
+      "id": "welos-concept-280",
       "name": "F01 Pipe flange -862",
       "kind": "primitive",
       "type": "cylinder",
@@ -6749,7 +8065,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-235",
+      "id": "welos-concept-281",
       "name": "F01 Inner flange -862",
       "kind": "primitive",
       "type": "cylinder",
@@ -6777,7 +8093,7 @@
       "color": "#307ca9"
     },
     {
-      "id": "welos-concept-236",
+      "id": "welos-concept-282",
       "name": "F01 Pipe flange -438",
       "kind": "primitive",
       "type": "cylinder",
@@ -6805,7 +8121,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-237",
+      "id": "welos-concept-283",
       "name": "F01 Inner flange -438",
       "kind": "primitive",
       "type": "cylinder",
@@ -6833,7 +8149,7 @@
       "color": "#307ca9"
     },
     {
-      "id": "welos-concept-238",
+      "id": "welos-concept-284",
       "name": "F01 Turbine access cover",
       "kind": "primitive",
       "type": "cylinder",
@@ -6861,7 +8177,7 @@
       "color": "#abb7b2"
     },
     {
-      "id": "welos-concept-239",
+      "id": "welos-concept-285",
       "name": "F01 Turbine cover bolt 1",
       "kind": "primitive",
       "type": "cylinder",
@@ -6889,7 +8205,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-240",
+      "id": "welos-concept-286",
       "name": "F01 Turbine cover bolt 2",
       "kind": "primitive",
       "type": "cylinder",
@@ -6917,7 +8233,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-241",
+      "id": "welos-concept-287",
       "name": "F01 Turbine cover bolt 3",
       "kind": "primitive",
       "type": "cylinder",
@@ -6945,7 +8261,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-242",
+      "id": "welos-concept-288",
       "name": "F01 Turbine cover bolt 4",
       "kind": "primitive",
       "type": "cylinder",
@@ -6973,7 +8289,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-243",
+      "id": "welos-concept-289",
       "name": "F01 Turbine cover bolt 5",
       "kind": "primitive",
       "type": "cylinder",
@@ -7001,7 +8317,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-244",
+      "id": "welos-concept-290",
       "name": "F01 Turbine cover bolt 6",
       "kind": "primitive",
       "type": "cylinder",
@@ -7029,7 +8345,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-245",
+      "id": "welos-concept-291",
       "name": "F01 Turbine cover bolt 7",
       "kind": "primitive",
       "type": "cylinder",
@@ -7057,7 +8373,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-246",
+      "id": "welos-concept-292",
       "name": "F01 Turbine cover bolt 8",
       "kind": "primitive",
       "type": "cylinder",
@@ -7085,7 +8401,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-247",
+      "id": "welos-concept-293",
       "name": "F01 Turbine cover bolt 9",
       "kind": "primitive",
       "type": "cylinder",
@@ -7113,7 +8429,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-248",
+      "id": "welos-concept-294",
       "name": "F01 Turbine cover bolt 10",
       "kind": "primitive",
       "type": "cylinder",
@@ -7141,7 +8457,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-249",
+      "id": "welos-concept-295",
       "name": "F01 Generator cooling fin 1",
       "kind": "primitive",
       "type": "box",
@@ -7170,7 +8486,7 @@
       "color": "#5d6b6d"
     },
     {
-      "id": "welos-concept-250",
+      "id": "welos-concept-296",
       "name": "F01 Generator cooling fin 2",
       "kind": "primitive",
       "type": "box",
@@ -7199,7 +8515,7 @@
       "color": "#5d6b6d"
     },
     {
-      "id": "welos-concept-251",
+      "id": "welos-concept-297",
       "name": "F01 Generator cooling fin 3",
       "kind": "primitive",
       "type": "box",
@@ -7228,7 +8544,7 @@
       "color": "#5d6b6d"
     },
     {
-      "id": "welos-concept-252",
+      "id": "welos-concept-298",
       "name": "F01 Generator cooling fin 4",
       "kind": "primitive",
       "type": "box",
@@ -7257,7 +8573,7 @@
       "color": "#5d6b6d"
     },
     {
-      "id": "welos-concept-253",
+      "id": "welos-concept-299",
       "name": "F01 Generator cooling fin 5",
       "kind": "primitive",
       "type": "box",
@@ -7286,7 +8602,7 @@
       "color": "#5d6b6d"
     },
     {
-      "id": "welos-concept-254",
+      "id": "welos-concept-300",
       "name": "F01 Generator cooling fin 6",
       "kind": "primitive",
       "type": "box",
@@ -7315,7 +8631,7 @@
       "color": "#5d6b6d"
     },
     {
-      "id": "welos-concept-255",
+      "id": "welos-concept-301",
       "name": "F01 Generator cooling fin 7",
       "kind": "primitive",
       "type": "box",
@@ -7344,7 +8660,7 @@
       "color": "#5d6b6d"
     },
     {
-      "id": "welos-concept-256",
+      "id": "welos-concept-302",
       "name": "F01 Generator cooling fin 8",
       "kind": "primitive",
       "type": "box",
@@ -7373,7 +8689,7 @@
       "color": "#5d6b6d"
     },
     {
-      "id": "welos-concept-257",
+      "id": "welos-concept-303",
       "name": "F01 Generator terminal housing",
       "kind": "primitive",
       "type": "box",
@@ -7402,7 +8718,7 @@
       "color": "#1a2527"
     },
     {
-      "id": "welos-concept-258",
+      "id": "welos-concept-304",
       "name": "F01 Turbine shaft",
       "kind": "primitive",
       "type": "cylinder",
@@ -7430,7 +8746,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-259",
+      "id": "welos-concept-305",
       "name": "B01 Tank reinforcing band 55",
       "kind": "primitive",
       "type": "cylinder",
@@ -7458,7 +8774,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-260",
+      "id": "welos-concept-306",
       "name": "B01 Tank reinforcing band 145",
       "kind": "primitive",
       "type": "cylinder",
@@ -7486,7 +8802,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-261",
+      "id": "welos-concept-307",
       "name": "B01 Tank reinforcing band 245",
       "kind": "primitive",
       "type": "cylinder",
@@ -7514,7 +8830,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-262",
+      "id": "welos-concept-308",
       "name": "B01 Inspection hatch",
       "kind": "primitive",
       "type": "cylinder",
@@ -7542,7 +8858,7 @@
       "color": "#e8ebe5"
     },
     {
-      "id": "welos-concept-263",
+      "id": "welos-concept-309",
       "name": "B01 Hatch fastener",
       "kind": "primitive",
       "type": "cylinder",
@@ -7570,7 +8886,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-264",
+      "id": "welos-concept-310",
       "name": "B01 Pressure gauge body",
       "kind": "primitive",
       "type": "cylinder",
@@ -7598,7 +8914,7 @@
       "color": "#e8ebe5"
     },
     {
-      "id": "welos-concept-265",
+      "id": "welos-concept-311",
       "name": "B01 Pressure gauge dial",
       "kind": "primitive",
       "type": "cylinder",
@@ -7626,7 +8942,7 @@
       "color": "#1a2527"
     },
     {
-      "id": "welos-concept-266",
+      "id": "welos-concept-312",
       "name": "B01 Manual shutoff valve",
       "kind": "primitive",
       "type": "box",
@@ -7655,7 +8971,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-267",
+      "id": "welos-concept-313",
       "name": "B01 Genset cooling louver 1",
       "kind": "primitive",
       "type": "box",
@@ -7684,7 +9000,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-268",
+      "id": "welos-concept-314",
       "name": "B01 Genset cooling louver 2",
       "kind": "primitive",
       "type": "box",
@@ -7713,7 +9029,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-269",
+      "id": "welos-concept-315",
       "name": "B01 Genset cooling louver 3",
       "kind": "primitive",
       "type": "box",
@@ -7742,7 +9058,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-270",
+      "id": "welos-concept-316",
       "name": "B01 Genset cooling louver 4",
       "kind": "primitive",
       "type": "box",
@@ -7771,7 +9087,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-271",
+      "id": "welos-concept-317",
       "name": "B01 Genset cooling louver 5",
       "kind": "primitive",
       "type": "box",
@@ -7800,7 +9116,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-272",
+      "id": "welos-concept-318",
       "name": "B01 Genset cooling louver 6",
       "kind": "primitive",
       "type": "box",
@@ -7829,7 +9145,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-273",
+      "id": "welos-concept-319",
       "name": "B01 Genset cooling louver 7",
       "kind": "primitive",
       "type": "box",
@@ -7858,7 +9174,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-274",
+      "id": "welos-concept-320",
       "name": "B01 Generator exhaust",
       "kind": "primitive",
       "type": "cylinder",
@@ -7886,7 +9202,7 @@
       "color": "#1a2527"
     },
     {
-      "id": "welos-concept-275",
+      "id": "welos-concept-321",
       "name": "B01 Generator fuel valve",
       "kind": "primitive",
       "type": "cylinder",
@@ -7914,7 +9230,7 @@
       "color": "#b87935"
     },
     {
-      "id": "welos-concept-276",
+      "id": "welos-concept-322",
       "name": "W01 Tower foundation flange",
       "kind": "primitive",
       "type": "cylinder",
@@ -7942,7 +9258,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-277",
+      "id": "welos-concept-323",
       "name": "W01 Tower collar 140",
       "kind": "primitive",
       "type": "cylinder",
@@ -7970,7 +9286,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-278",
+      "id": "welos-concept-324",
       "name": "W01 Tower collar 275",
       "kind": "primitive",
       "type": "cylinder",
@@ -7998,7 +9314,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-279",
+      "id": "welos-concept-325",
       "name": "W01 Tower collar 405",
       "kind": "primitive",
       "type": "cylinder",
@@ -8026,7 +9342,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-280",
+      "id": "welos-concept-326",
       "name": "W01 Nacelle vent 1",
       "kind": "primitive",
       "type": "box",
@@ -8055,7 +9371,7 @@
       "color": "#899792"
     },
     {
-      "id": "welos-concept-281",
+      "id": "welos-concept-327",
       "name": "W01 Nacelle vent 2",
       "kind": "primitive",
       "type": "box",
@@ -8084,7 +9400,7 @@
       "color": "#899792"
     },
     {
-      "id": "welos-concept-282",
+      "id": "welos-concept-328",
       "name": "W01 Nacelle vent 3",
       "kind": "primitive",
       "type": "box",
@@ -8113,7 +9429,7 @@
       "color": "#899792"
     },
     {
-      "id": "welos-concept-283",
+      "id": "welos-concept-329",
       "name": "W01 Nacelle vent 4",
       "kind": "primitive",
       "type": "box",
@@ -8142,7 +9458,7 @@
       "color": "#899792"
     },
     {
-      "id": "welos-concept-284",
+      "id": "welos-concept-330",
       "name": "W01 Nacelle vent 5",
       "kind": "primitive",
       "type": "box",
@@ -8171,7 +9487,7 @@
       "color": "#899792"
     },
     {
-      "id": "welos-concept-285",
+      "id": "welos-concept-331",
       "name": "W01 Nacelle vent 6",
       "kind": "primitive",
       "type": "box",
@@ -8200,7 +9516,7 @@
       "color": "#899792"
     },
     {
-      "id": "welos-concept-286",
+      "id": "welos-concept-332",
       "name": "W01 Rotor nose cone",
       "kind": "primitive",
       "type": "sphere",
@@ -8227,7 +9543,7 @@
       "color": "#e8ebe5"
     },
     {
-      "id": "welos-concept-287",
+      "id": "welos-concept-333",
       "name": "W01 Anemometer mast",
       "kind": "primitive",
       "type": "cylinder",
@@ -8255,7 +9571,7 @@
       "color": "#1a2527"
     },
     {
-      "id": "welos-concept-288",
+      "id": "welos-concept-334",
       "name": "W01 Anemometer sensor",
       "kind": "primitive",
       "type": "sphere",
@@ -8282,7 +9598,7 @@
       "color": "#1a2527"
     },
     {
-      "id": "welos-concept-289",
+      "id": "welos-concept-335",
       "name": "W01 Nacelle seam 575",
       "kind": "primitive",
       "type": "box",
@@ -8311,7 +9627,7 @@
       "color": "#8e9b98"
     },
     {
-      "id": "welos-concept-290",
+      "id": "welos-concept-336",
       "name": "W01 Nacelle seam 725",
       "kind": "primitive",
       "type": "box",
