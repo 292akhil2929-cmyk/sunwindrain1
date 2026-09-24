@@ -49,9 +49,9 @@ const copper = "#b87935";
 
 // Enclosure: recessed instrument door, seals, hinges and readable controls.
 add("C01 Door inset panel", "box", [322, 4, 398], [430, -260, 220], "#b9c5c1");
-add("C01 Door gasket", "box", [290, 3, 360], [430, -264, 220], black);
-add("C01 Smoked inspection window", "box", [258, 4, 170], [430, -268, 304], "#233945");
-add("C01 Window internal display", "box", [172, 3, 82], [430, -272, 312], "#14546c");
+add("C01 Door gasket", "box", [290, 3, 360], [430, -253, 220], black);
+add("C01 Smoked inspection window", "box", [258, 4, 170], [430, -265, 304], "#233945");
+add("C01 Window internal display", "box", [172, 3, 82], [430, -269, 312], "#14546c");
 for (const x of [292, 568]) {
   add(`C01 Door vertical trim ${x}`, "box", [7, 7, 402], [x, -267, 220], steel);
 }
@@ -65,10 +65,10 @@ add("C01 Door handle escutcheon", "box", [25, 10, 85], [565, -272, 210], black);
 add("C01 Door handle shaft", "cylinder", [11, 28], [565, -285, 210], copper, [Math.PI / 2, 0, 0]);
 add("C01 Door handle grip", "box", [12, 19, 60], [565, -305, 194], steel);
 for (let i = 0; i < 3; i += 1) {
-  add(`C01 Door status lamp ${i + 1}`, "cylinder", [8, 5], [355 + i * 28, -278, 163], ["#4fbf79", "#e6b451", "#c7544d"][i], [Math.PI / 2, 0, 0]);
+  add(`C01 Door status lamp ${i + 1}`, "cylinder", [8, 5], [355 + i * 28, -265, 163], ["#4fbf79", "#e6b451", "#c7544d"][i], [Math.PI / 2, 0, 0]);
 }
 for (let i = 0; i < 10; i += 1) {
-  add(`C01 Cooling vent ${i + 1}`, "box", [45, 4, 4], [353 + (i % 5) * 35, -270, 68 + Math.floor(i / 5) * 12], "#596866");
+  add(`C01 Cooling vent ${i + 1}`, "box", [45, 4, 4], [353 + (i % 5) * 35, -264, 68 + Math.floor(i / 5) * 12], "#596866");
 }
 for (const x of [-155, 155]) {
   for (const z of [30, 410]) {
