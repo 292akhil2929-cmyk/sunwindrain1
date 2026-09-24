@@ -4,4 +4,5 @@ dist/
 *.log
 .playwright-cli/
 output/playwright/
+output/model-review*/
 firmware/.pio/
