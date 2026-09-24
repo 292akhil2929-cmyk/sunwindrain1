@@ -9,6 +9,7 @@ export default defineConfig({
       input: {
         landing: resolve(__dirname, "index.html"),
         control: resolve(__dirname, "control.html"),
+        model: resolve(__dirname, "model.html"),
       },
     },
   },

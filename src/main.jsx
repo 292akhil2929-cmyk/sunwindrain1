@@ -284,8 +284,9 @@ function App() {
           <a href="#system">System</a>
           <a href="#intelligence">Intelligence</a>
           <a href="#prototype">Prototype</a>
+          <a href="/model.html">3D model</a>
         </nav>
-        <a className="nav-cta" href="#prototype">Explore the system <span>↗</span></a>
+        <a className="nav-cta" href="/model.html">Open 3D model <span>↗</span></a>
       </header>
 
       <main id="top">
